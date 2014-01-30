@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!-- _layouts/default.html -->
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      KMAP Steering Committee Meeting June 25 2013 &middot; george.entenman.name
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Collecting my thoughts in one place</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about.html">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+	
+		<ul>
+			<span class="sidebar-nav-item active">dev</span>
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">Syncing gitm with 2tlh</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/dev/2013-08-31-docker-versus-virtualbox.html">Docker versus Virtualbox</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/rails/rails4-link-set.html">rails4 link set</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/postgreSQL/postgreSQL-link-set.html">postgreSQL link set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">finance</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/finance/financial-link-set.html">Financial Link Set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">google</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/2013-07-30-moving-original-posts-from-google-plus-to-jekyll.html">Why I'm moving my posts from Google+ to Jekyll</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/google-reader-alternatives.html">Google Reader Alternatives</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">javascript</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">kmap</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/kmap/steering_committee/2013-06-26-kmap-steering-committee-meeting.html">KMAP Steering Committee Meeting June 25 2013</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">markdown</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-07-22-using-markdown-to-post-to-postachio.html">Using Markdown to Post to Postachio</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/markdown-links-and-notes.html">Markdown Links and Notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/learning-to-use-jekyll.html">Learning to use Jekyll!</a>
+						</li>
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">misc</span>
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2014-01-29-our-house-in-the-snow.html">Our House in the Snow</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-things-you-cannot-buy-in-the-us.html">Things you cannot buy in the US</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-03-a-bicycle-song-in-french.html">A Bicycle Song in French</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/news/2013-07-01-virginia-and-leonard-woolf-wedding-day.html">virginia and leonard woolf wedding day</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">politics</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-11-so-many-non-profit-organizations.html">So Many Non-Profit Organizations</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-07-anti-government-blindness.html">Anti government blindness</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-07-25-another-silent-sam-letter.html">Another Silent Sam Letter</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/arguments-against-global-warming.html">global warming denial</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">psychology</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-photos-do-bring-back-memories.html">Photos Do Bring Back Memories</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">social</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/social/friends/retirement/2013/05/08/olli-french-table.html">Olli French Table</a>
+						</li>
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">travel</span>
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/travel/2013-09-02-latin-america-trip-notes.html">Latin America trip notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+	
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2014. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">george.entenman.name</a>
+            <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besta e tú si você não viver nesse mundo</small>
+          </h3>
+			<div>
+				<small>Collecting my thoughts in one place</small>
+			</div>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">KMAP Steering Committee Meeting June 25 2013</h1>
+  <span class="post-date">26 Jun 2013</span>
+  <p>Minutes from the KMAP Steering Committee meeting, June 25, 2013.</p>
+
+<!--more-->
+
+<h2>KMAP steering committee meeting June 25 2013</h2>
+
+<p>June 25, 2013 @ Joann Haggerty&#39;s</p>
+
+<h2>Disclaimer</h2>
+
+<p>These notes have not been polished or vetted.</p>
+
+<h2>Present</h2>
+
+<ul>
+<li>Iris Tillman Hill</li>
+<li>Joann Haggerty</li>
+<li>Suzanne Lewis Brown</li>
+<li>Mary Anderson</li>
+<li>Jeanne van Gemert</li>
+<li>Ellen Johnson</li>
+<li>George Entenman</li>
+</ul>
+
+<h2>Incorporation</h2>
+
+<h3>Iris</h3>
+
+<p>There are people who oppose incorporation, who just want to be good samaritans.  Tom Cooke opposed?</p>
+
+<p>No reason not to pursue it.  Could perhaps get Meadowmont&#39;s incorporation papers - they haven&#39;t been sent yet.  </p>
+
+<p>Franklin Street AP decided to go ahead w/o incorporation.  Project Compassion didn&#39;t push for it; they said to be clear.  (Meadowmont people said that clarity isn&#39;t protection enough.)  PC believes that a strong, clear relationship protects you.</p>
+
+<p>Need legal advice.  Any lawyers in KMAP?</p>
+
+<p>Jeanne Van Gammaert supports the idea.</p>
+
+<p>George - why not start doing it and see if there&#39;s push-back?</p>
+
+<p>Joann - there are people who we know need help but who won&#39;t join KMAP.  That is stretching it.  Perhaps we have the cart before the horse on the legal issue.</p>
+
+<p>Suzanne&#39;s story of getting a 501(c)3 ?  Pretty good story.</p>
+
+<p>Suzanne - can get 2nd year law students to help with the legal issues.</p>
+
+<p>Suzanne - they needed to use it 3 times for protection.</p>
+
+<p>Iris - liability insurance is separate from 501(c)3.  Meadowmont - once people were driving others to appointments, they felt the need for insurance.</p>
+
+<p>Suzanne - alternative: each person who helps others can take out personal umbrella insurance.</p>
+
+<p>Jeanne - her Buddhist org does outreach, etc., so they have 501(c)3 just to be able to help others.</p>
+
+<p>Suzanne - Katie Rose Guest Pryal, new neighbor in Whittaker&#39;s old house - is a lawyer.</p>
+
+<p>Jeanne - email whole neighborhood asking for a lawyer.</p>
+
+<p>Iris - one more question: it might be useful to talk to Mary Fraser from the Seymour center and ask if they have lawyers who could help.  Iris will be able to pursue this in the 2nd part of July.</p>
+
+<p>Suzanne - when law students arrive, they&#39;re given assignments, so we should get up with Katie Rose Guest Pryal ASAP to get on the list.</p>
+
+<p>Suzanne, &quot;George, send an email to Katie Rose Guest Pryal&quot;.  George: &quot;Yes, Ma&#39;am.&quot;</p>
+
+<p>Joann: let&#39;s try to move forward by August.</p>
+
+<p>Joann: Who&#39;s going to make the case?  We have about 20 people who have been coming to the pubs - is that enough to afford insurance, etc?  Do we only help members?  What&#39;s the point of membership if you&#39;ll be helped anyway?  Perhaps we could go under Meadowmont?</p>
+
+<p>Iris.  Perhaps Carolina Villages could be an umbrella group, but, says Joann, they don&#39;t seem to be getting very organized.  They&#39;re also possibly expensive.</p>
+
+<h2>Project Compassion</h2>
+
+<p>Joann changes discussion to Project Compassion.  I have trouble following the issues.
+Care teams, coordinated via Internet.  Should we get more training by PC?</p>
+
+<p>Jeanne heard about PC by getting lost near their office.  She knew a young woman with lung transplants, who felt that PC saved her life.  PC has been around a lot.</p>
+
+<p>Joann.  Is it time to start advertising services?</p>
+
+<p>Iris.  They worked on a list of services at their pubs.  </p>
+
+<p>Joann.  We&#39;ll do that.</p>
+
+<p>Ellen.  Helping Hands could already do that.  Is it used?</p>
+
+<p>George.  You need to talk about it regularly - at pubs, say - for people to use it.
+/
+Iris.  Some of the services will probably require extensive periods of time.</p>
+
+<p>Joann.  Let&#39;s generate a list of services that people might provide.</p>
+
+<p>Suzanne.  Each of us should go home and think about services that we would like to have if we&#39;re sick.</p>
+
+<p>Joann: Pub in July?  August? Make request to KMAP list?</p>
+
+<p>Ainbinder in Bot Way?</p>
+
+<h2>Book box</h2>
+
+<p>No interest.</p>
+
+<h2>Yard Sale</h2>
+
+<p>Suzanne still has a lot of stuff to get rid of.</p>
+
+<p>People could bring stuff to her drive and sell it.  Potluck for lunch, etc.  Then have someone pick up stuff that&#39;s left at end.</p>
+
+<p>Suzanne feels that young people in neighborhood think we&#39;re not very useful.  This is a way to give us elders a meaning to them.</p>
+
+<p>Need date and rain date.</p>
+
+<p>Proceeds go to individuals selling.</p>
+
+<p>Students - when do they come into town?</p>
+
+<p>Find out pickup schedule for Salvation Army, Habitat, etc.</p>
+
+<p>Find out when different students come to UNC.</p>
+
+<p>Date seems to be August 4th or 11th?</p>
+
+<h2>Other ideas</h2>
+
+<h3>House tour service</h3>
+
+<p>Art tour</p>
+
+<p>Ellen - substitute an art walk for a pub?  But that doesn&#39;t let younger people go....</p>
+
+<h3>Adopt a grandparent</h3>
+
+<p>Jeanne: chalk drawings on street.</p>
+
+<h3>Next KMAP Steering Comm</h3>
+
+<p>If pub is Aug 16th, then we should meet Aug 13th at Suzanne&#39;s?</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/misc/2014-01-29-our-house-in-the-snow.html">
+            Our House in the Snow
+            <small>29 Jan 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/travel/2013-09-02-latin-america-trip-notes.html">
+            Latin America trip notes
+            <small>02 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">
+            Syncing gitm with 2tlh
+            <small>01 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

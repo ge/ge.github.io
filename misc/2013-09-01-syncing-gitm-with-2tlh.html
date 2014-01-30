@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!-- _layouts/default.html -->
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Syncing gitm with 2tlh &middot; george.entenman.name
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Collecting my thoughts in one place</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about.html">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+	
+		<ul>
+			<span class="sidebar-nav-item active">dev</span>
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">Syncing gitm with 2tlh</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/dev/2013-08-31-docker-versus-virtualbox.html">Docker versus Virtualbox</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/rails/rails4-link-set.html">rails4 link set</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/postgreSQL/postgreSQL-link-set.html">postgreSQL link set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">finance</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/finance/financial-link-set.html">Financial Link Set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">google</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/2013-07-30-moving-original-posts-from-google-plus-to-jekyll.html">Why I'm moving my posts from Google+ to Jekyll</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/google-reader-alternatives.html">Google Reader Alternatives</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">javascript</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">kmap</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/kmap/steering_committee/2013-06-26-kmap-steering-committee-meeting.html">KMAP Steering Committee Meeting June 25 2013</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">markdown</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-07-22-using-markdown-to-post-to-postachio.html">Using Markdown to Post to Postachio</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/markdown-links-and-notes.html">Markdown Links and Notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/learning-to-use-jekyll.html">Learning to use Jekyll!</a>
+						</li>
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">misc</span>
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2014-01-29-our-house-in-the-snow.html">Our House in the Snow</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-things-you-cannot-buy-in-the-us.html">Things you cannot buy in the US</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-03-a-bicycle-song-in-french.html">A Bicycle Song in French</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/news/2013-07-01-virginia-and-leonard-woolf-wedding-day.html">virginia and leonard woolf wedding day</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">politics</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-11-so-many-non-profit-organizations.html">So Many Non-Profit Organizations</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-07-anti-government-blindness.html">Anti government blindness</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-07-25-another-silent-sam-letter.html">Another Silent Sam Letter</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/arguments-against-global-warming.html">global warming denial</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">psychology</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-photos-do-bring-back-memories.html">Photos Do Bring Back Memories</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">social</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/social/friends/retirement/2013/05/08/olli-french-table.html">Olli French Table</a>
+						</li>
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">travel</span>
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/travel/2013-09-02-latin-america-trip-notes.html">Latin America trip notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+	
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2014. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">george.entenman.name</a>
+            <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besta e tú si você não viver nesse mundo</small>
+          </h3>
+			<div>
+				<small>Collecting my thoughts in one place</small>
+			</div>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Syncing gitm with 2tlh</h1>
+  <span class="post-date">01 Sep 2013</span>
+  <h2>Bittorrent Sync</h2>
+
+<p>I&#39;ve tried but nothing happens at all.</p>
+
+<p><strong>gitm</strong> and <strong>2tlh</strong> can&#39;t <em>ping</em> each other, but I can <em>ssh</em> between them.</p>
+
+<h3>Allowing ping</h3>
+
+<p>I followed advice from <a href="http://support.apple.com/kb/PH11198">Apple Support</a>, only I deselected stealth mode:</p>
+
+<ul>
+<li>Choose Apple menu &gt; System Preferences, click Security &amp; Privacy, and then click Firewall.</li>
+<li>Click the lock icon to unlock it, and then type an administrator name and password.</li>
+<li>Click Firewall Options.</li>
+<li>Deselect the Enable Stealth Mode checkbox.</li>
+</ul>
+
+<p>Ping now works, but syncing doesn&#39;t.</p>
+
+<h3>Listening</h3>
+
+<p>The Preferences tab shows the port on which you are listening.</p>
+
+<p>Should both computers listen on the same port?</p>
+
+<h3>No devices show up</h3>
+
+<h2>SpiderOak Hive seems to do syncing like Bittorent Sync</h2>
+
+<p>Most of my problems required deleting <em>~/Library/Application Support/SpiderOak</em> and restarting <em>SpiderOak</em>.</p>
+
+<p><em>SpiderOak Hive</em> now seems to be syncing files between my Mac Mini and my MacBook Air.  Whew!</p>
+
+<h3>What is the difference between SpiderOak Sync and SpiderOak Hive?</h3>
+
+<p>If you look at the services listed by SpiderOak on their web pages, you&#39;ll read:</p>
+
+<p>SpiderOak offers 5 services in 1 solution: Online backup, sync, share, access and store.</p>
+
+<p>The word <em>Hive</em> is not used there.</p>
+
+<p>If I understand correctly, SpiderOak Sync can only sync items that are already being backed up by SpiderOak.  This implies that I cannot sync files larger than my account quota, which is 5GB.</p>
+
+<p>SpiderOak Hive, on the other hand, uses a folder that I am <em>not</em> backing up with regular <em>SpiderOak</em>.  So I&#39;m hopeful that I can sync files larger than my quota.</p>
+
+<p>I wonder what role SpiderOak Sync is supposed to play now?</p>
+
+<h3>Logging into SpiderOak Forums</h3>
+
+<p>According to the <a href="https://spideroak.com/forum/accounts/login/">login page for SpiderOak forums</a> I can &quot;Select the &#39;User Forums&#39; item in the SpiderOak application &#39;Help&#39; menu (Mac), or the SpiderOak notification tray icon (Windows, Linux). This is the recommended method. Why?&quot;</p>
+
+<p>Trouble is, my Mac Application has no help menu.  So is there a way to log into the forums without entering my username and password into a browser?</p>
+
+<h3>Reading SpiderOak forums</h3>
+
+<p>The page (https://spideroak.com/personal/) lists 5 services in 1 solution: Online backup, sync, share, access and store.</p>
+
+<p>Will someone please explain the difference between these services?</p>
+
+<p>I&#39;m not really that dumb a guy, but I can&#39;t figure out exactly what SpiderOak does, besides local encryption and online backup.</p>
+
+<p>I&#39;m writing this in as elementary a manner as I can because I need simple answers, explaining where data is stored and how it is transmitted by the various SpiderOak services that look the same to me.</p>
+
+<p>Here are my best guesses:</p>
+
+<ul>
+<li>SpiderOak Backup: copies files in the SpiderOak Hive folder to the server.</li>
+<li>SpiderOak Store: store files on the SpiderOak server.  I can&#39;t distinguish this from SpiderOak Backup.</li>
+<li>SpiderOak Hive: a special folder required by SpiderOak Backup.  Files placed in this folder will be copied to the server and synced to SpiderOak Hive folders on other machines.</li>
+<li>SpiderOak Sync: copies files from one computer to another.  I have trouble distinguishing this from SpiderOak Hive.</li>
+<li>SpiderOak Access: access files with a web browser (I haven&#39;t tried this).</li>
+<li>SpiderOak Share: let others see files with a web browser or possibly their SpiderOak apps (I haven&#39;t tried this).</li>
+</ul>
+
+<p>With Dropbox, I put my files in a folder whose name can be changed, and Dropbox copies them to its server.  If I add Dropbox to another machine, Dropbox will download the files from the server and populate the folder.  From then on, a change on either machine will update the server and the other machine - a form of syncing.</p>
+
+<p>As far as I can tell, this is what SpiderOak does.  This is what happens with the SpiderOak Hive folders on my two Macs: files are synchronized between them.</p>
+
+<p>So what else does SpiderOak Sync do?  If I understand correctly, SpiderOak Sync can only sync items that are already being backed up by SpiderOak.  In other words, the have to be in the SpiderOak Hive folder, too.  SpiderOak Sync allows me to select subfolders of the Hive folder, so maybe it&#39;s a way to prevent full synchronization between my machines, to only sync some of the files in the Hive folder?</p>
+
+<p>Another way to ask my question: what&#39;s the difference between Sync and what the Hive folder does?</p>
+
+<p>I was hoping to find a way to do what Bittorrent Sync does (except I unfortunately can&#39;t get that to work either): transmit files from one machine to the other without going to a central server.  I was hoping that Hive did this, but apparently Hive stores files on the SpiderOak server and cannot sync files larger than the storage space purchased.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/misc/2014-01-29-our-house-in-the-snow.html">
+            Our House in the Snow
+            <small>29 Jan 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/travel/2013-09-02-latin-america-trip-notes.html">
+            Latin America trip notes
+            <small>02 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/dev/2013-08-31-docker-versus-virtualbox.html">
+            Docker versus Virtualbox
+            <small>31 Aug 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

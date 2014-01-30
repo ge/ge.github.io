@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!-- _layouts/default.html -->
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      global warming denial &middot; george.entenman.name
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Collecting my thoughts in one place</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about.html">About</a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+	
+		<ul>
+			<span class="sidebar-nav-item active">dev</span>
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">Syncing gitm with 2tlh</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/dev/2013-08-31-docker-versus-virtualbox.html">Docker versus Virtualbox</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/rails/rails4-link-set.html">rails4 link set</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/postgreSQL/postgreSQL-link-set.html">postgreSQL link set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">finance</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/finance/financial-link-set.html">Financial Link Set</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">google</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/2013-07-30-moving-original-posts-from-google-plus-to-jekyll.html">Why I'm moving my posts from Google+ to Jekyll</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/google/google-reader-alternatives.html">Google Reader Alternatives</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">javascript</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">kmap</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/kmap/steering_committee/2013-06-26-kmap-steering-committee-meeting.html">KMAP Steering Committee Meeting June 25 2013</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">markdown</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-07-22-using-markdown-to-post-to-postachio.html">Using Markdown to Post to Postachio</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/markdown-links-and-notes.html">Markdown Links and Notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+						</li>
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/jekyll/2013/05/05/learning-to-use-jekyll.html">Learning to use Jekyll!</a>
+						</li>
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">misc</span>
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2014-01-29-our-house-in-the-snow.html">Our House in the Snow</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-things-you-cannot-buy-in-the-us.html">Things you cannot buy in the US</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-03-a-bicycle-song-in-french.html">A Bicycle Song in French</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/news/2013-07-01-virginia-and-leonard-woolf-wedding-day.html">virginia and leonard woolf wedding day</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">politics</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-11-so-many-non-profit-organizations.html">So Many Non-Profit Organizations</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-08-07-anti-government-blindness.html">Anti government blindness</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2013-07-25-another-silent-sam-letter.html">Another Silent Sam Letter</a>
+						</li>
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/arguments-against-global-warming.html">global warming denial</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">psychology</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/misc/2013-08-11-photos-do-bring-back-memories.html">Photos Do Bring Back Memories</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">social</span>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/social/friends/retirement/2013/05/08/olli-french-table.html">Olli French Table</a>
+						</li>
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+		<ul>
+			<span class="sidebar-nav-item active">travel</span>
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/travel/2013-09-02-latin-america-trip-notes.html">Latin America trip notes</a>
+						</li>
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+		</ul>
+	
+	
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2014. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+          <h3 class="masthead-title">
+            <a href="/" title="Home">george.entenman.name</a>
+            <small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Besta e tú si você não viver nesse mundo</small>
+          </h3>
+			<div>
+				<small>Collecting my thoughts in one place</small>
+			</div>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">global warming denial</h1>
+  <span class="post-date">08 Jul 2013</span>
+  <p>My friend, Ed Jackem, gave me a paper by John R Christy, PhD, Univ of Alabama, Huntsville.  The paper was apparently prepared for some  Senate committee.  It can be found <a href="https://docs.google.com/viewer?url=http%3A%2F%2Fnsstc.uah.edu%2Faosc%2Fdocs%2FChristyJR_SenateEPW_120801.pdf">here</a>.</p>
+
+<p>Here are someo of my thoughts on this paper.</p>
+
+<!--more-->
+
+<h1>Global Warming</h1>
+
+<h2>Extreme weather does not indicate climate change</h2>
+
+<p>Christy spends pp. 2-12 making the point &quot;... that extreme events are poor metrics to use for detecting climate change.&quot;</p>
+
+<p>Christy argues against the conclusions of the Intergovernmental Panel on Climate Change (IPCC), which seems to believe that global warming has been causing increasingly extreme weather.  His basic argument seems to be that records of temperature and precipitation show great variability and much greater extremes in the 1930s (in the US).</p>
+
+<p>In the case of extreme weather, he argues that the IPCC has made a &quot;non-falsifiable hypothesis&quot;, clearly a non-scientific thing to do:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">I am not using these statistics to prove the weather in the US is
+becoming less extreme and/or colder. My point is that extreme events
+are poor metrics to use for detecting climate change. Indeed, because
+of their rarity (by definition) using extreme events to bolster a
+claim about any type of climate change (warming or cooling) runs the
+risk of setting up the classic “non-falsifiable hypothesis.” For
+example, we were told by the IPCC that “milder winter temperatures
+will decrease heavy snowstorms” (TAR WG2, 15.2.4.1.2.4). After the
+winters of 2009-10 and 2010-11, we are told the opposite by advocates
+of the IPCC position, “Climate Change Makes Major Snowstorms More
+Likely” (http://www.ucsusa.org/news/press_release/climate-change-makes-snowstorms-more-likely-0506.html).
+</code></pre></div>
+<p>What I see here without reading any of the IPCC materials, are <strong>multiple hypotheses</strong>.  Christy argues that <strong>both</strong> hypotheses about snowfall are wrong because snowfall, he believes, have not become more extreme.  That may be, but clearly he is dealing with two hypotheses, not one, and each is clearly falsifiable.</p>
+
+<p>I believe he is being disingenuous when he writes:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">In the example above if winters become milder or they become
+snowier, the non-falsifiable hypothesis stands. This is not science.
+</code></pre></div>
+<p>And his use of the singular <strong>hypothesis</strong> is not science either.</p>
+
+<h2>Climate models</h2>
+
+<p>Christy draws a graph displaying &quot;...the results from 34 of the latest climate model simulations of global temperature that will be used in the upcoming IPCC AR5 assessment on climate change (KNMI Climate Explorer). All of the data are given a reference of 1979-1983, i.e. the same starting line. Along with these individual model runs I show their average (thick black line) and the results from observations (symbols). The two satellite-based results (circles, UAH and RSS) have been proportionally adjusted so they represent surface variations for an apples-to-apples comparison. The evidence indicates the models on average are over-warming the planet by quite a bit, implying there should be little confidence that the models can answer the question asked by policymakers.&quot;</p>
+
+<p>Christy does the same thing with precipitation models, lumping them all together to show almost no change.  This despite the fact that there are 34 models.</p>
+
+<p>Christy concludes:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Basing policy on the circles (i.e. real data) seems more
+prudent than basing policy on the thick line of model output.
+</code></pre></div>
+<p>This seems to make sense (and the data from observations seem to show warming over time).</p>
+
+<p>My only question - unaddresses as far as I can see - is who proposes to use the <strong>average of the models</strong> to make policy?  Is that the IPCC position?</p>
+
+<p>It seems to me that the scientific thing to do would be to adjust the models until they match reality better, as a few of the lines Christy draws already seem to do.</p>
+
+<p>Christy recommends that we plan for extremes of temperature and precipition without being particularly certain on whether we will see increases or decreases.  Offhand, I see nothing wrong with this suggestion.</p>
+
+<h2>We are measuring the wrong things</h2>
+
+<p>Christy says that </p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">In general, the issue of global warming is dominated by considering
+the near-surface air temperature (Tsfc) as if it were a standard by
+which one might measure the climate impact of the extra warming due to
+increases in greenhouse gases. Fundamentally, the proper variable to
+measure is heat content, or the amount of heat energy (measured in
+joules) in the climate system, mainly in the oceans and atmosphere.
+Thus the basic measurement for detecting greenhouse warming is how
+many more joules of energy are accumulating in the climate system over
+that which would have occurred naturally. This is a truly “wicked”
+problem (see House Testimony, Dr. Judith Curry, 17 Nov 2010) because
+we do not know how much accumulation can occur naturally.
+</code></pre></div>
+<p>I fail to see how the level of &quot;natural&quot; accumulation matters.  Wouldn&#39;t <strong>changes</strong> in accumulation matter just as much?  I agree that this is probably a hard thing to measure, but that&#39;s a different argument.</p>
+
+<p>This section makes some excellent-appearing points about surface temperature.  He seems to agree that that <strong>nighttime</strong> surface temperatures &quot;show significant warming&quot;, but I guess this doesn&#39;t matter politically because it is the result of human disturbances to the Earth&#39;s surface, not the atmosphere.</p>
+
+<h2>Consensus Science</h2>
+
+<p>Christy argues that science is not consensus, and I agree.  In the face of disagreement - while we wait for all scientists to agree on the correct falsifiable hypothesis regarding science - we feel the need to know what climate change is taking place.  We feel the need to act to prevent global warming if it is occuring, and we feel the need to prepare for extremes of weather, especially if they are increasingly violent.</p>
+
+<p>I don&#39;t see any better course of action than consensus at this point.  We have to rely on consensus in lots of areas of life; medicine, for example;</p>
+
+<p>Christy proposes &quot;that five to ten percent of [climate research] funds be allocated to a group of well-credentialed scientists to produce an assessment that expresses legitimate, alternative hypotheses that have been (in their view) marginalized, misrepresented or ignored in previous IPCC reports (and thus EPA and National Climate Assessments).&quot;</p>
+
+<p>While it feels funny to me to fund research based on the results we expect, I like the idea that scientists be free to pursue their hypotheses.  However there&#39;s a lot that I don&#39;t know about the funding system.  Since it involves money and large human organizations, it can&#39;t be perfect, but I don&#39;t know if this is the way to fix it.</p>
+
+<h2>Emission Control measures won&#39;t have much effect on climate</h2>
+
+<p>Christy states, &quot;the evidence above suggests that climate models overestimate the response of temperature to greenhouse gas increases.&quot;</p>
+
+<p>Perhaps this is just a way of saying that the temperature models seem to err on the high side.  I&#39;ve discussed my problems with this section above.</p>
+
+<p>He makes the interesting - and believable - claim that these models show that any conceivable change to the rate of increase in carbon emissions will have only a small effect on climate.  I&#39;m not in a position to run the models with different assumptions, but it strikes me that many &quot;consensus&quot; climate scientists are saying the same thing when they say that it&#39;s too late to stop global warming.</p>
+
+<p>This paper appears to be the source of the idea that increasing levels of CO2 will <strong>help</strong> humanity by increasing crop yields.  The only support he gives for this idea is the &quot;simple fact that CO2 is plant food and the world around us evolved when levels of CO2 were five to ten times what they are today.&quot;  I hope he&#39;s right.</p>
+
+<p>He paints a kind of polyannish picture of a world where forests are saved by burning petroleum, coal and natural gas instead of wood.  Again, I hope he&#39;s right.</p>
+
+<h2>Aren&#39;t there other ways to measure temperature and precipition?</h2>
+
+<p>It puzzles me that Christy doesn&#39;t even mention ocean temperature.  It seems to me that measuring water temperature might be more accurate than measuring surface air temperatures.  I also wonder about the changes in our plant zones.  Certainly in North Carolina, plants and animals have moved from South to North.</p>
+
+<h2>Summary</h2>
+
+<p>Christy raises interesting points, but I find some of his arguments confusing and even wrong.  For now, I think I&#39;ll go with consensus.</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/misc/2014-01-29-our-house-in-the-snow.html">
+            Our House in the Snow
+            <small>29 Jan 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/travel/2013-09-02-latin-america-trip-notes.html">
+            Latin America trip notes
+            <small>02 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">
+            Syncing gitm with 2tlh
+            <small>01 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
