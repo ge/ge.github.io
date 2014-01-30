@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"></title>
 	<link type="application/atom+xml" href="http://ge.github.io/feed/" rel="self"/>
  	<link type="text" href="http://ge.github.io" rel="alternate"/>
-	<updated>2014-01-29T23:12:25-05:00</updated>
+	<updated>2014-01-30T00:26:11-05:00</updated>
 	<id>http://ge.github.io</id>
 	<author>
 		<name>George Entenman</name>
@@ -327,13 +327,17 @@ He especially recommended that I do the &lt;a href=&quot;https://www.docker.io/g
 
 &lt;p&gt;I told Justin:&lt;/p&gt;
 
+&lt;blockquote&gt;
 &lt;p&gt;It seems very nice but I&amp;#39;m going to hold off until it runs on OSX.  To run it now I&amp;#39;d have to run it inside a &lt;em&gt;virtualbox&lt;/em&gt; VM and I don&amp;#39;t see the point.  Besides I can&amp;#39;t imagine getting networking and file sharing working from way in there.&lt;/p&gt;
 
 &lt;p&gt;One advantage of &lt;em&gt;docker&lt;/em&gt; seems to be the downloadable premade environments.  This reminded me that &lt;em&gt;virtualbox&lt;/em&gt; has them, too.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Reading another &lt;a href=&quot;http://blog.scoutapp.com/articles/2013/08/28/docker-git-for-deployment&quot;&gt;article on docker&lt;/a&gt;, I found this explanation of the difference between &lt;em&gt;docker&lt;/em&gt; and :&lt;/p&gt;
 
+&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Virtualbox&lt;/em&gt; has a lot of overhead as each image uses its own kernel and file system. This isn&amp;#39;t the case with &lt;em&gt;docker&lt;/em&gt; - containers share the same operating system as the host, and when possible, the same binaries and libraries. It&amp;#39;s possible to run hundreds of containers on a single &lt;em&gt;docker&lt;/em&gt; host.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;An instance of &lt;em&gt;docker&lt;/em&gt; running in OSX, if I understand correctly, could only &lt;strong&gt;run&lt;/strong&gt; OSX, not some other OS.  And &lt;em&gt;docker&lt;/em&gt; in linux can only run linux.&lt;/p&gt;
 
