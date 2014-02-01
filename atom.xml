@@ -4,13 +4,85 @@
  <title>george.entenman.name</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2014-01-30T10:09:48-05:00</updated>
+ <updated>2014-02-01T10:49:12-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Adding a custom domain name to my jekyll blog</title>
+   <link href="http://localhost:4000/markdown/2014-01-30-adding-custom-domain-to-ge.github.io.html"/>
+   <updated>2014-01-30T10:52:41Z</updated>
+   <id>http://localhost:4000/markdown/adding-custom-domain-to-ge.github.io</id>
+   <content type="html">&lt;p&gt;This blog was originally located at &lt;strong&gt;http://ge.github.io&lt;/strong&gt;, but I wanted to refer to it as &lt;strong&gt;http://george.entenman.name&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;#39;s what I did.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I got my jekyll blog working at &lt;em&gt;http://ge.github.io&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Basically I followed the directions I found in &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;github&amp;#39;s documentation&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h2&gt;CNAME file&lt;/h2&gt;
+
+&lt;p&gt;I set up a &lt;strong&gt;CNAME&lt;/strong&gt; file (not record) in my home directory (i.e., &lt;strong&gt;/CNAME&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;As soon as I pushed the &lt;strong&gt;CNAME&lt;/strong&gt; file to github, http://ge.github.io became unavailable.&lt;/p&gt;
+
+&lt;h2&gt;Modified DNS&lt;/h2&gt;
+
+&lt;p&gt;I had to ask &lt;strong&gt;Dotster.com&lt;/strong&gt;, my registrar, to fix the &lt;strong&gt;CNAME&lt;/strong&gt; record for &lt;strong&gt;george.entenman.name&lt;/strong&gt;.  I did that because I found their form for doing this too confusing.&lt;/p&gt;
+
+&lt;p&gt;When they had finished the job, &lt;strong&gt;dig&lt;/strong&gt; returned records that looked like what github required:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;$ dig @ns1.dotster.com george.entenman.name  +nostats +nocomments +nocmd
+
+; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; @ns1.dotster.com george.entenman.name +nostats +nocomments +nocmd
+; (1 server found)
+;; global options: +cmd
+;george.entenman.name.          IN      A
+george.entenman.name.   3600    IN      CNAME   ge.github.io.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And soon my custom domain name was working!&lt;/p&gt;
+
+&lt;h2&gt;FYI: My support request to Dotster.com&lt;/h2&gt;
+
+&lt;p&gt;You may be interested in my support request to dotster.com.  I didn&amp;#39;t (and still don&amp;#39;t) understand how to map the &lt;strong&gt;CNAME&lt;/strong&gt; stuff onto &lt;strong&gt;host&lt;/strong&gt; and &lt;strong&gt;points&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dear Dotster,&lt;/p&gt;
+
+&lt;p&gt;I need help getting my domain george.entenman.name to point to my new jekyll blog at ge.github.io.&lt;/p&gt;
+
+&lt;p&gt;I followed the directions under &amp;quot;Setting the domain in your repo&amp;quot; on the github documentation page (https://help.github.com/articles/setting-up-a-custom-domain-with-pages) and I have set up a CNAME file (not record), which apparently makes http://ge.github.io unavailable.&lt;/p&gt;
+
+&lt;p&gt;Now I have to set up the DNS.  The directions under &amp;quot;Setting up DNS&amp;quot; on the github documentation page (https://help.github.com/articles/setting-up-a-custom-domain-with-pages) suggests that I set up a CNAME record for my domain.&lt;/p&gt;
+
+&lt;p&gt;I need help setting up the CNAME record (I think).  &lt;/p&gt;
+
+&lt;p&gt;I apparently have to fill in a form with two fields:&lt;/p&gt;
+
+&lt;p&gt;Host:
+  Points to:&lt;/p&gt;
+
+&lt;p&gt;But I&amp;#39;m not sure how to do that for &lt;em&gt;george.entenman.name&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The github doc suggests that I want something like:&lt;/p&gt;
+
+&lt;p&gt;george.entenman.name.              3592    IN      CNAME   ge.github.io.&lt;/p&gt;
+
+&lt;p&gt;But I&amp;#39;m not sure how to do that?&lt;/p&gt;
+
+&lt;p&gt;I would really appreciate your help on this.&lt;/p&gt;
+
+&lt;p&gt;Thanks a lot.
+--ge&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Our House in the Snow</title>

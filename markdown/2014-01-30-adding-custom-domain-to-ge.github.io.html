@@ -11,7 +11,7 @@
 
   <title>
     
-      postgreSQL link set &middot; george.entenman.name
+      Adding a custom domain name to my jekyll blog &middot; george.entenman.name
     
   </title>
 
@@ -829,18 +829,72 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">postgreSQL link set</h1>
-  <span class="post-date">27 May 2013</span>
-  <p>A list of useful links for <strong>postgreSQL</strong>.</p>
+  <h1 class="post-title">Adding a custom domain name to my jekyll blog</h1>
+  <span class="post-date">30 Jan 2014</span>
+  <p>This blog was originally located at <strong>http://ge.github.io</strong>, but I wanted to refer to it as <strong>http://george.entenman.name</strong>.</p>
+
+<p>Here&#39;s what I did.</p>
 
 <!--more-->
 
-<h2>PostgreSQL Links</h2>
+<p>I got my jekyll blog working at <em>http://ge.github.io</em>.</p>
 
-<ul>
-<li><a href="http://www.postgresql.org/about/featurematrix/">PostgreSQL Feature Matrix</a></li>
-<li><a href="http://www.postgresguide.com/SQL/select.html">SQL Query Examples</a></li>
-</ul>
+<p>Basically I followed the directions I found in <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">github&#39;s documentation</a>:</p>
+
+<h2>CNAME file</h2>
+
+<p>I set up a <strong>CNAME</strong> file (not record) in my home directory (i.e., <strong>/CNAME</strong>).</p>
+
+<p>As soon as I pushed the <strong>CNAME</strong> file to github, http://ge.github.io became unavailable.</p>
+
+<h2>Modified DNS</h2>
+
+<p>I had to ask <strong>Dotster.com</strong>, my registrar, to fix the <strong>CNAME</strong> record for <strong>george.entenman.name</strong>.  I did that because I found their form for doing this too confusing.</p>
+
+<p>When they had finished the job, <strong>dig</strong> returned records that looked like what github required:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ dig @ns1.dotster.com george.entenman.name  +nostats +nocomments +nocmd
+
+; &lt;&lt;&gt;&gt; DiG 9.8.3-P1 &lt;&lt;&gt;&gt; @ns1.dotster.com george.entenman.name +nostats +nocomments +nocmd
+; (1 server found)
+;; global options: +cmd
+;george.entenman.name.          IN      A
+george.entenman.name.   3600    IN      CNAME   ge.github.io.
+</code></pre></div>
+<p>And soon my custom domain name was working!</p>
+
+<h2>FYI: My support request to Dotster.com</h2>
+
+<p>You may be interested in my support request to dotster.com.  I didn&#39;t (and still don&#39;t) understand how to map the <strong>CNAME</strong> stuff onto <strong>host</strong> and <strong>points</strong>.</p>
+
+<blockquote>
+<p>Dear Dotster,</p>
+
+<p>I need help getting my domain george.entenman.name to point to my new jekyll blog at ge.github.io.</p>
+
+<p>I followed the directions under &quot;Setting the domain in your repo&quot; on the github documentation page (https://help.github.com/articles/setting-up-a-custom-domain-with-pages) and I have set up a CNAME file (not record), which apparently makes http://ge.github.io unavailable.</p>
+
+<p>Now I have to set up the DNS.  The directions under &quot;Setting up DNS&quot; on the github documentation page (https://help.github.com/articles/setting-up-a-custom-domain-with-pages) suggests that I set up a CNAME record for my domain.</p>
+
+<p>I need help setting up the CNAME record (I think).  </p>
+
+<p>I apparently have to fill in a form with two fields:</p>
+
+<p>Host:
+  Points to:</p>
+
+<p>But I&#39;m not sure how to do that for <em>george.entenman.name</em>.</p>
+
+<p>The github doc suggests that I want something like:</p>
+
+<p>george.entenman.name.              3592    IN      CNAME   ge.github.io.</p>
+
+<p>But I&#39;m not sure how to do that?</p>
+
+<p>I would really appreciate your help on this.</p>
+
+<p>Thanks a lot.
+--ge</p>
+</blockquote>
 
 
     <div id="disqus_thread"></div>
@@ -869,15 +923,6 @@
     
       <li>
         <h3>
-          <a href="/markdown/2014-01-30-adding-custom-domain-to-ge.github.io.html">
-            Adding a custom domain name to my jekyll blog
-            <small>30 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
           <a href="/misc/2014-01-29-our-house-in-the-snow.html">
             Our House in the Snow
             <small>29 Jan 2014</small>
@@ -890,6 +935,15 @@
           <a href="/travel/2013-09-02-latin-america-trip-notes.html">
             Latin America trip notes
             <small>02 Sep 2013</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/misc/2013-09-01-syncing-gitm-with-2tlh.html">
+            Syncing gitm with 2tlh
+            <small>01 Sep 2013</small>
           </a>
         </h3>
       </li>

@@ -3,8 +3,8 @@
 DEBUG = false
 POSTSDIR = %q{/Users/ge/Dropbox/ge/george.entenman.name/_posts}
 
-unless ARGV[0]
-  puts 'Usage: newpost "the post title"'
+unless ARGV[1]
+  puts 'Usage: newpost "the post title" category {subcategory*}'
   exit(-1)
 end
  
