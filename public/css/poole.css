@@ -202,8 +202,13 @@ blockquote p:last-child {
 
 img {
   display: block;
-  margin: 0 0 1rem;
+  /* margin: 0 0 1rem; */
   border-radius: 5px;
+  /* added by ge: */
+  max-width:80%;
+  height:auto
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 /* Tables */

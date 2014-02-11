@@ -77,10 +77,22 @@
     
       
     
+      
+    
+      
+    
+      
+    
+      
+    
 
 	
 		<ul>
 			<span class="sidebar-nav-item active">dev</span>
+				
+					
+				
+					
 				
 					
 				
@@ -198,6 +210,10 @@
 					
 				
 					
+				
+					
+				
+					
 						<li>
 							<a class="sidebar-nav-item" href="/finance/financial-link-set.html">Financial Link Set</a>
 						</li>
@@ -215,6 +231,10 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">google</span>
+				
+					
+				
+					
 				
 					
 				
@@ -316,6 +336,10 @@
 					
 				
 					
+				
+					
+				
+					
 						<li>
 							<a class="sidebar-nav-item" href="/javascript/javascript-link-set.html">Javascript Links</a>
 						</li>
@@ -337,6 +361,10 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">kmap</span>
+				
+					
+				
+					
 				
 					
 				
@@ -396,6 +424,14 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">markdown</span>
+				
+					
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/markdown/2014-02-03-jekyll-confusion.html">jekyll confusion</a>
+						</li>
+					
 				
 					
 						<li>
@@ -475,6 +511,10 @@
 					
 				
 					
+				
+					
+				
+					
 						<li>
 							<a class="sidebar-nav-item" href="/misc/2014-01-29-our-house-in-the-snow.html">Our House in the Snow</a>
 						</li>
@@ -542,6 +582,14 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">politics</span>
+				
+					
+						<li>
+							<a class="sidebar-nav-item" href="/politics/2014-02-11-hkonj-march-in-raleigh.html">HKonJ March in Raleigh</a>
+						</li>
+					
+				
+					
 				
 					
 				
@@ -613,6 +661,10 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">psychology</span>
+				
+					
+				
+					
 				
 					
 				
@@ -718,6 +770,10 @@
 					
 				
 					
+				
+					
+				
+					
 						<li>
 							<a class="sidebar-nav-item" href="/social/friends/retirement/2013/05/08/olli-french-table.html">Olli French Table</a>
 						</li>
@@ -731,6 +787,10 @@
 	
 		<ul>
 			<span class="sidebar-nav-item active">travel</span>
+				
+					
+				
+					
 				
 					
 				
@@ -837,6 +897,17 @@
 
 <h2>page_testbed: examining methods for site.pages</h2>
 
+A jekyll page seems to be:
+
+<ul>
+	<li>
+		* A document not in the _posts directory
+	</li>
+	<li>
+		* A document whose name does not begin with "_"
+	</li>
+</ul>
+
 <div class="posts">
 <ul>
 
@@ -844,16 +915,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [404: Page not found],
-			<br />page.excerpt: [],
-			<br />page.url: [/404.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [404.html],
-			<br />page.layout: [default]
+			<br />page.title: [ 404: Page not found ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /404.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ 404.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -861,16 +932,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [About],
-			<br />page.excerpt: [],
-			<br />page.url: [/about.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [about.md],
-			<br />page.layout: [page]
+			<br />page.title: [ About ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /about.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ about.md ],
+			<br />page.layout: [ page ],
 			</p>
 	</li>
 
@@ -878,16 +949,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/atom.xml],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [atom.xml],
-			<br />page.layout: [nil]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /atom.xml ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ atom.xml ],
+			<br />page.layout: [ nil ],
 			</p>
 	</li>
 
@@ -895,16 +966,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/index.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [index.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ index.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -912,16 +983,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/feed/index.xml],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [index.xml],
-			<br />page.layout: [nil]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /feed/index.xml ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ index.xml ],
+			<br />page.layout: [ nil ],
 			</p>
 	</li>
 
@@ -929,16 +1000,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/learn_jekyll.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [learn_jekyll.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /learn_jekyll.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ learn_jekyll.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -946,16 +1017,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/learningjekyll/pages.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [learningjekyll/pages.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /learningjekyll/category_list.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ learningjekyll/category_list.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -963,16 +1034,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/page2/index.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [page2/index.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /learningjekyll/pages.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ learningjekyll/pages.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -980,16 +1051,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/page3/index.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [page3/index.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /learningjekyll/posts.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ learningjekyll/posts.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -997,16 +1068,16 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/page4/index.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [page4/index.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /learningjekyll/site_categories.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ learningjekyll/site_categories.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
@@ -1014,21 +1085,92 @@
 			<p>
 			<br />page:[<strong>not shown</strong>],
 			<br />page.content: [<strong>not shown</strong>],
-			<br />page.title: [],
-			<br />page.excerpt: [],
-			<br />page.url: [/page5/index.html],
-			<br />page.date: [],
-			<br />page.id: [],
-			<br />page.categories: [],
-			<br />page.tags: [],
-			<br />page.custom_variable: [],
-			<br />page.path: [page5/index.html],
-			<br />page.layout: [default]
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /page2/index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ page2/index.html ],
+			<br />page.layout: [ default ],
+			</p>
+	</li>
+
+	<li>
+			<p>
+			<br />page:[<strong>not shown</strong>],
+			<br />page.content: [<strong>not shown</strong>],
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /page3/index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ page3/index.html ],
+			<br />page.layout: [ default ],
+			</p>
+	</li>
+
+	<li>
+			<p>
+			<br />page:[<strong>not shown</strong>],
+			<br />page.content: [<strong>not shown</strong>],
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /page4/index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ page4/index.html ],
+			<br />page.layout: [ default ],
+			</p>
+	</li>
+
+	<li>
+			<p>
+			<br />page:[<strong>not shown</strong>],
+			<br />page.content: [<strong>not shown</strong>],
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /page5/index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ page5/index.html ],
+			<br />page.layout: [ default ],
+			</p>
+	</li>
+
+	<li>
+			<p>
+			<br />page:[<strong>not shown</strong>],
+			<br />page.content: [<strong>not shown</strong>],
+			<br />page.title: [ undefined ],
+			<br />page.excerpt: [ undefined ],
+			<br />page.url: [ /page6/index.html ],
+			<br />page.date: [ undefined ],
+			<br />page.id: [ undefined ],
+			<br />page.categories: [ undefined ],
+			<br />page.tags: [ undefined ],
+			<br />page.custom_variable: [ undefined ],
+			<br />page.path: [ page6/index.html ],
+			<br />page.layout: [ default ],
 			</p>
 	</li>
 
 </ul>
 </div>
+
+
+
 
 
 
