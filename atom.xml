@@ -4,13 +4,40 @@
  <title>george.entenman.name</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2014-02-11T11:03:13-05:00</updated>
+ <updated>2014-02-12T16:27:56-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>It's Snowing in Chapel Hill</title>
+   <link href="http://localhost:4000/misc/2014-02-12-snow-in-chapel-hill.html"/>
+   <updated>2014-02-12T15:55:18Z</updated>
+   <id>http://localhost:4000/misc/snow-in-chapel-hill</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/02-2014-02-snow-house.jpg&quot; alt=&quot;DESC&quot;&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;Show is still falling&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s covering ...&lt;em&gt;everything&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;... our little garden-man&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/01-2014-02-snow-sculpture.jpg&quot; alt=&quot;Little man&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... one of our pigs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/03-2014-02-snow-pig.jpg&quot; alt=&quot;Lil Pig&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... our deck&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/04-2014-02-snow-deck.jpg&quot; alt=&quot;Side deck&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>HKonJ March in Raleigh</title>
@@ -1869,8 +1896,28 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- &amp;lt;p&amp;gt;It&amp;amp;#39;s been a long time since we&amp;amp;#39;ve had snow in Chapel Hill, and I don&amp;amp;#39;t think we got nearly as much as surrounding areas.  But we still got some.  It&amp;amp;#39;s cold and beautiful.&amp;lt;/p&amp;gt;
+        --- ![DESC](/assets/02-2014-02-snow-house.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;h2&gt;Show is still falling&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s covering ...&lt;em&gt;everything&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;... our little garden-man&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/01-2014-02-snow-sculpture.jpg&quot; alt=&quot;Little man&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... one of our pigs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/03-2014-02-snow-pig.jpg&quot; alt=&quot;Lil Pig&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... our deck&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/04-2014-02-snow-deck.jpg&quot; alt=&quot;Side deck&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s been a long time since we&amp;#39;ve had snow in Chapel Hill, and I don&amp;#39;t think we got nearly as much as surrounding areas.  But we still got some.  It&amp;#39;s cold and beautiful.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/s/xkhiesdzpu2tv81/2014_01_29_snow_in_chapel_hill_14.01.54.jpg&quot;&gt;Our house seen from the side - open in separate window&lt;/a&gt;
 &lt;img src=&quot;https://dl.dropboxusercontent.com/s/xkhiesdzpu2tv81/2014_01_29_snow_in_chapel_hill_14.01.54.jpg&quot; alt=&quot;Our house seen from the side&quot;&gt;&lt;/p&gt;
 
@@ -4526,7 +4573,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 4 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 5 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],

@@ -4,13 +4,40 @@
 	<title type="text" xml:lang="en"></title>
 	<link type="application/atom+xml" href="http://ge.github.io/feed/" rel="self"/>
  	<link type="text" href="http://ge.github.io" rel="alternate"/>
-	<updated>2014-02-11T11:03:13-05:00</updated>
+	<updated>2014-02-12T16:27:56-05:00</updated>
 	<id>http://ge.github.io</id>
 	<author>
 		<name>George Entenman</name>
 	</author>
 	<rights>Copyright (c) 2005-2014, George Entenman; all rights reserved.</rights>
 	
+	
+	<entry>
+		<title>It's Snowing in Chapel Hill</title>
+		<link href="http://ge.github.io/misc/2014-02-12-snow-in-chapel-hill.html"/>
+		<updated>2014-02-12T15:55:18Z</updated>
+		<id>http://ge.github.io/misc/snow-in-chapel-hill</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;/assets/02-2014-02-snow-house.jpg&quot; alt=&quot;DESC&quot;&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;Show is still falling&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s covering ...&lt;em&gt;everything&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;... our little garden-man&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/01-2014-02-snow-sculpture.jpg&quot; alt=&quot;Little man&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... one of our pigs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/03-2014-02-snow-pig.jpg&quot; alt=&quot;Lil Pig&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... our deck&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/04-2014-02-snow-deck.jpg&quot; alt=&quot;Side deck&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>HKonJ March in Raleigh</title>
@@ -1869,8 +1896,28 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- &amp;lt;p&amp;gt;It&amp;amp;#39;s been a long time since we&amp;amp;#39;ve had snow in Chapel Hill, and I don&amp;amp;#39;t think we got nearly as much as surrounding areas.  But we still got some.  It&amp;amp;#39;s cold and beautiful.&amp;lt;/p&amp;gt;
+        --- ![DESC](/assets/02-2014-02-snow-house.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;h2&gt;Show is still falling&lt;/h2&gt;
+
+&lt;p&gt;It&amp;#39;s covering ...&lt;em&gt;everything&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3&gt;... our little garden-man&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/01-2014-02-snow-sculpture.jpg&quot; alt=&quot;Little man&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... one of our pigs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/03-2014-02-snow-pig.jpg&quot; alt=&quot;Lil Pig&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3&gt;... our deck&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/04-2014-02-snow-deck.jpg&quot; alt=&quot;Side deck&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s been a long time since we&amp;#39;ve had snow in Chapel Hill, and I don&amp;#39;t think we got nearly as much as surrounding areas.  But we still got some.  It&amp;#39;s cold and beautiful.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/s/xkhiesdzpu2tv81/2014_01_29_snow_in_chapel_hill_14.01.54.jpg&quot;&gt;Our house seen from the side - open in separate window&lt;/a&gt;
 &lt;img src=&quot;https://dl.dropboxusercontent.com/s/xkhiesdzpu2tv81/2014_01_29_snow_in_chapel_hill_14.01.54.jpg&quot; alt=&quot;Our house seen from the side&quot;&gt;&lt;/p&gt;
 
@@ -4526,7 +4573,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 4 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 5 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -6427,185 +6474,6 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 &lt;p&gt;&lt;a href=&quot;http://mangomarkdown.com/&quot;&gt;Mangomarkdown&lt;/a&gt; is a cool folding markdown editor that stores its data in your browser&amp;#39;s local storage.  It&amp;#39;s written by the same people that make &lt;em&gt;FoldingText&lt;/em&gt;, which I&amp;#39;ve stopped using much, but it&amp;#39;s nice and handy.&lt;/p&gt;
 
 &lt;p&gt;I like that folding is done by right-clicking on a header row.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Google Reader Alternatives</title>
-		<link href="http://ge.github.io/google/google-reader-alternatives.html"/>
-		<updated>2013-06-13T10:23:22Z</updated>
-		<id>http://ge.github.io/google/google-reader-alternatives</id>
-		<content type="html">&lt;p&gt;Huge list of Google Reader alternatives.  I wonder how many of them are still working?&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2&gt;Google Reader Alternatives&lt;/h2&gt;
-
-&lt;h3&gt;Alternatives that I&amp;#39;m trying&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://commafeed.com&quot;&gt;Commafeed&lt;/a&gt; (&lt;a href=&quot;http://www.the-digital-reader.com/2013/05/16/commafeed-offers-a-clean-simple-open-source-alternative-to-google-reader/#.UboomfZ75Z8&quot;&gt;review&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedwrangler.com&quot;&gt;Feed Wrangler&lt;/a&gt; (Good &lt;a href=&quot;http://shawnblanc.net/2013/06/feed-wrangler-smart-streams/&quot;&gt;article about FW&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.feedspot.com/&quot;&gt;Feed Spot&lt;/a&gt; has very nice social sharing features.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.digg.com/reader&quot;&gt;Digg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://bealector.com/subscriptions&quot;&gt;Lector&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://hivereader.com&quot;&gt;Hive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedly.com&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;People trying to creae archives of RSS feeds&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://archiveteam.org/index.php?title=Google_Reader&quot;&gt;archive team&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Useful links&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fantastic &lt;a href=&quot;http://ctrlq.org/rss/&quot;&gt;RSS Search Engine&lt;/a&gt;.  Use to find RSS feeds.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.silverreader.com&quot;&gt;Silver Reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://getgini.com/google-reader-alternatives&quot;&gt;Canonical list of GR replacements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://andrewsullivan.thedailybeast.com/2012/10/the-first-debate-reader-reax-ii.html&quot;&gt;the-first-debate-reader-reax-ii.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://bigthink.com/ideas/saving-google-reader-for-people-who-really-need-it&quot;&gt;saving-google-reader-for-people-who-really-need-it&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.smarthome.com/2012/05/01/the-one-multi-card-reader-thats-rules-them-all/&quot;&gt;the-one-multi-card-reader-thats-rules-them-all&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.zite.com/2013/03/14/google-reader-is-dead-so-we-rebuilt-it-for-you-in-zite-in-six-hours/&quot;&gt;google-reader-is-dead-so-we-rebuilt-it-for-you-in-zite-in-six-hours&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://coding.pressbin.com/141/How-to-make-the-switch-from-Google-Reader&quot;&gt;How-to-make-the-switch-from-Google-Reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://cultofmac.com.feedsportal.com/c/33797/f/606249/s/2a114a1d/l/0L0Scultofmac0N0C2214510Cpopular0Erss0Eapp0Ereeder0Eannounces0Eupcoming0Esupport0Efor0Egoogle0Ereader0Ealternative0Efeedbin0C/story01.htm&quot;&gt;story01.htm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedproxy.google.com/%7Er/andrewsullivan/rApM/%7E3/6FuDIM3504k/the-first-debate-reader-reax-ii.html&quot;&gt;the-first-debate-reader-reax-ii.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedproxy.google.com/%7Er/bigthink/main/%7E3/FKVaAR2G5X0/saving-google-reader-for-people-who-really-need-it&quot;&gt;saving-google-reader-for-people-who-really-need-it&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedproxy.google.com/%7Er/dzone/frontpage/%7E3/HFndje5yRAU/preparing_for_google_reader_going_away.html&quot;&gt;preparing&lt;em&gt;for&lt;/em&gt;google&lt;em&gt;reader&lt;/em&gt;going_away.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedproxy.google.com/%7Er/fastcompany/headlines/%7E3/5tpz7_SDP2w/the-fast-company-guide-to-ereaders&quot;&gt;the-fast-company-guide-to-ereaders&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feedproxy.google.com/%7Er/fastcompany/headlines/%7E3/P7Isp_Zk50c/lessons-google-reader-reaction&quot;&gt;lessons-google-reader-reaction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.americanpublicmedia.org/%7Er/APM_MarketplaceMoney/%7E3/bAgqd6DX3Ls/google-reader-fail-internet-outraged-again&quot;&gt;google-reader-fail-internet-outraged-again&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.dzone.com/%7Er/dzone/frontpage/%7E3/2cI7KZieqyo/15_best_alternatives_to_google_reader.html&quot;&gt;15&lt;em&gt;best&lt;/em&gt;alternatives&lt;em&gt;to&lt;/em&gt;google_reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.dzone.com/%7Er/dzone/frontpage/%7E3/511531378/ask_the_readers_how_do_you_keep_dry_when_exposing.html&quot;&gt;ask&lt;em&gt;the&lt;/em&gt;readers&lt;em&gt;how&lt;/em&gt;do&lt;em&gt;you&lt;/em&gt;keep&lt;em&gt;dry&lt;/em&gt;when_exposing.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.dzone.com/%7Er/dzone/frontpage/%7E3/X3Fh50i9SVg/14_alternative_to_google_reader.html&quot;&gt;14&lt;em&gt;alternative&lt;/em&gt;to&lt;em&gt;google&lt;/em&gt;reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.dzone.com/%7Er/dzone/frontpage/%7E3/YONaVuDGLBs/talking_about_google_reader.html&quot;&gt;talking&lt;em&gt;about&lt;/em&gt;google_reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.feedblitz.com/%7E/39000649/0/gizmag%7EThe-best-Google-Reader-replacements/&quot;&gt;gizmag~The-best-Google-Reader-replacements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/0epmVvxc56o/five-best-google-reader-alternatives&quot;&gt;five-best-google-reader-alternatives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/5TicF_fZR6Y/minimalist-google-reader-saves-space-in-google-reader-adds-useful-shortcuts&quot;&gt;minimalist-google-reader-saves-space-in-google-reader-adds-useful-shortcuts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/ILAEaIzlJlA/the-google-reader-filter-userscript-lets-you-sort-and-save-your-starred-articles&quot;&gt;the-google-reader-filter-userscript-lets-you-sort-and-save-your-starred-articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/X7CkRGiXIZo/rss-subscription-extension-makes-adding-new-rss-feeds-to-your-new-reader-a-breeze&quot;&gt;rss-subscription-extension-makes-adding-new-rss-feeds-to-your-new-reader-a-breeze&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/iqvay7yPChQ/best-google-reader-alternative&quot;&gt;best-google-reader-alternative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/jjPhSJDgiG0/unsocialize-bypasses-facebook-social-reader-app-requests&quot;&gt;unsocialize-bypasses-facebook-social-reader-app-requests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/nGC2uqPcQxc/feedly-updates-with-10-new-features-to-help-ease-your-google-reader-transition&quot;&gt;feedly-updates-with-10-new-features-to-help-ease-your-google-reader-transition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/prxvTM4HStM/how-to-build-your-own-syncing-rss-reader-with-tiny-tiny-rss-and-kick-google-reader-to-the-curb&quot;&gt;how-to-build-your-own-syncing-rss-reader-with-tiny-tiny-rss-and-kick-google-reader-to-the-curb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/excerpts/%7E3/qEJknKsRfCU/combine-ifttt-and-pocket-evernote-or-gmail-for-a-diy-google-reader-replacement&quot;&gt;combine-ifttt-and-pocket-evernote-or-gmail-for-a-diy-google-reader-replacement&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://feeds.gawker.com/%7Er/lifehacker/full/%7E3/C20t9AlntpA/the-pushbutton-web-now-in-google-reader&quot;&gt;the-pushbutton-web-now-in-google-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://googlereader.blogspot.com/2010/02/may-we-recommend.html&quot;&gt;may-we-recommend.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5331165/the-pushbutton-web-now-in-google-reader&quot;&gt;the-pushbutton-web-now-in-google-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5542724/gruml-is-a-full-featured-google-reader-client-for-mac&quot;&gt;gruml-is-a-full-featured-google-reader-client-for-mac&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5778125/minimalist-google-reader-saves-space-in-google-reader-adds-useful-shortcuts&quot;&gt;minimalist-google-reader-saves-space-in-google-reader-adds-useful-shortcuts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5917350/unsocialize-bypasses-facebook-social-reader-app-requests&quot;&gt;unsocialize-bypasses-facebook-social-reader-app-requests&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5990509/best-google-reader-alternative&quot;&gt;best-google-reader-alternative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5990722/combine-ifttt-and-pocket-evernote-or-gmail-for-a-diy-google-reader-replacement&quot;&gt;combine-ifttt-and-pocket-evernote-or-gmail-for-a-diy-google-reader-replacement&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5990881/five-best-google-reader-alternatives&quot;&gt;five-best-google-reader-alternatives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5991257/the-google-reader-filter-userscript-lets-you-sort-and-save-your-starred-articles&quot;&gt;the-google-reader-filter-userscript-lets-you-sort-and-save-your-starred-articles&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5991264/rss-subscription-extension-makes-adding-new-rss-feeds-to-your-new-reader-a-breeze&quot;&gt;rss-subscription-extension-makes-adding-new-rss-feeds-to-your-new-reader-a-breeze&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5992404/how-to-build-your-own-syncing-rss-reader-with-tiny-tiny-rss-and-kick-google-reader-to-the-curb&quot;&gt;how-to-build-your-own-syncing-rss-reader-with-tiny-tiny-rss-and-kick-google-reader-to-the-curb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5992803/feedly-updates-with-10-new-features-to-help-ease-your-google-reader-transition&quot;&gt;feedly-updates-with-10-new-features-to-help-ease-your-google-reader-transition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://news.slashdot.org/story/10/01/05/1433223/Kurzweil-Takes-On-Kindle-With-Blio-E-Reader?from=rss&quot;&gt;Kurzweil-Takes-On-Kindle-With-Blio-E-Reader?from=rss&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://opensource.com/life/13/3/eight-open-source-rss-feed-readers&quot;&gt;eight-open-source-rss-feed-readers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pogue.blogs.nytimes.com/2010/01/07/reader-responses-to-review-of-googles-nexus-one/&quot;&gt;reader-responses-to-review-of-googles-nexus-one&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://radar.oreilly.com/2013/03/the-demise-of-google-reader-stability-as-a-service.html&quot;&gt;the-demise-of-google-reader-stability-as-a-service.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rss.slashdot.org/%7Er/Slashdot/slashdot/%7E3/FhBAyBUNVi4/Kurzweil-Takes-On-Kindle-With-Blio-E-Reader&quot;&gt;Kurzweil-Takes-On-Kindle-With-Blio-E-Reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://slashdot.feedsportal.com/c/35028/f/647410/s/298a8efd/l/0Ltech0Bslashdot0Borg0Cstory0C130C0A30C140C0A0A33230A0Cgoogle0Ereader0Ebeing0Eretired0Dutm0Isource0Frss10B0Amainlinkanon0Gutm0Imedium0Ffeed/story01.htm&quot;&gt;story01.htm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/data-management/the-old-reader-is-a-capable-google-reader-replacement/&quot;&gt;the-old-reader-is-a-capable-google-reader-replacement&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/multiplx-a-visual-google-reader-alternative-to-attract-the-masses/&quot;&gt;multiplx-a-visual-google-reader-alternative-to-attract-the-masses&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/skimr-a-slick-and-simple-rss-reader/&quot;&gt;skimr-a-slick-and-simple-rss-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/syndifeed-is-a-simple-and-clutter-free-rss-reader/&quot;&gt;syndifeed-is-a-simple-and-clutter-free-rss-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/taptu-simple-alternative-to-your-google-reader-woes/&quot;&gt;taptu-simple-alternative-to-your-google-reader-woes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/the-feed-wranlger-the-feed-reader-designed-around-feeds/&quot;&gt;the-feed-wranlger-the-feed-reader-designed-around-feeds&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/social-networking/rockmelt-a-new-type-of-news-reader/&quot;&gt;rockmelt-a-new-type-of-news-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/social-networking/the-feed-reader-that-hits-the-spot-feedspot/&quot;&gt;the-feed-reader-that-hits-the-spot-feedspot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/roundups/rssfeeds/google-reader-is-dead-heres-what-you-need-to-replace-google-reader/&quot;&gt;google-reader-is-dead-heres-what-you-need-to-replace-google-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.csmonitor.com/Books/2011/0912/Reader-recommendation-Hawthorne-A-Life&quot;&gt;Reader-recommendation-Hawthorne-A-Life&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.csmonitor.com/Books/Readers-picks/2012/0425/Reader-recommendation-23-Things-They-Don-t-Tell-You-About-Capitalism&quot;&gt;Reader-recommendation-23-Things-They-Don-t-Tell-You-About-Capitalism&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cultofmac.com/this-little-dongle-is-the-shamelesstrademark-infringing-sd-card-reader-your-mac-deserves/109823&quot;&gt;109823&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.designboom.com/weblog/cat/16/view/8634/skiff-reader.html&quot;&gt;skiff-reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/r/14_alternative_to_google_reader.html&quot;&gt;14&lt;em&gt;alternative&lt;/em&gt;to&lt;em&gt;google&lt;/em&gt;reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/r/15_best_alternatives_to_google_reader.html&quot;&gt;15&lt;em&gt;best&lt;/em&gt;alternatives&lt;em&gt;to&lt;/em&gt;google_reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/r/preparing_for_google_reader_going_away.html&quot;&gt;preparing&lt;em&gt;for&lt;/em&gt;google&lt;em&gt;reader&lt;/em&gt;going_away.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/r/talking_about_google_reader.html&quot;&gt;talking&lt;em&gt;about&lt;/em&gt;google_reader.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/rss/ask_the_readers_how_do_you_keep_dry_when_exposing.html&quot;&gt;ask&lt;em&gt;the&lt;/em&gt;readers&lt;em&gt;how&lt;/em&gt;do&lt;em&gt;you&lt;/em&gt;keep&lt;em&gt;dry&lt;/em&gt;when_exposing.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/1654998/the-fast-company-guide-to-ereaders?partner=rss&quot;&gt;the-fast-company-guide-to-ereaders?partner=rss&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/3007556/tracking/lessons-google-reader-reaction&quot;&gt;lessons-google-reader-reaction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.fastcompany.com/files/imagecache/listing_image/files/e-readers-5.jpg&quot;&gt;e-readers-5.jpg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.gizmag.com/best-google-reader-alternatives-2013/26643/&quot;&gt;26643&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.gizmag.com/best-google-reader-alternatives-2013/26643/&quot;&gt;26643&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macintouch.com/readerreports/kvmswitches/index.html#d27mar2010-1023&quot;&gt;index.html#d27mar2010-1023&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macmegasite.com/2013/04/12/horus-news-reader-1-0-for-mac-2/&quot;&gt;horus-news-reader-1-0-for-mac-2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macmegasite.com/2013/05/20/erudito-app-for-ipad-the-news-reader-for-massive-consumption-of-news/&quot;&gt;erudito-app-for-ipad-the-news-reader-for-massive-consumption-of-news&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/disappointed-google-reader-twitter-lists/&quot;&gt;disappointed-google-reader-twitter-lists&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/google-readers-end-is-nigh-prepare-with-these-alternative-rss-readers/&quot;&gt;google-readers-end-is-nigh-prepare-with-these-alternative-rss-readers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/how-to-download-your-google-reader-feeds-as-an-epub-or-mobi-file/&quot;&gt;how-to-download-your-google-reader-feeds-as-an-epub-or-mobi-file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/local-reader-6-excellent-rss-extensions-for-chrome/&quot;&gt;local-reader-6-excellent-rss-extensions-for-chrome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/magicscroll-web-reader-revolutionize-how-you-scroll-and-read-the-web/&quot;&gt;magicscroll-web-reader-revolutionize-how-you-scroll-and-read-the-web&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/power-up-your-mac-desktop-with-rss-feed-reader-newsbar-mac-ios/&quot;&gt;power-up-your-mac-desktop-with-rss-feed-reader-newsbar-mac-ios&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/quiterss-a-clean-effective-standalone-rss-reader/&quot;&gt;quiterss-a-clean-effective-standalone-rss-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/swim-in-the-sea-of-rss-curated-content-alternatives-to-google-reader/&quot;&gt;swim-in-the-sea-of-rss-curated-content-alternatives-to-google-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.marketplace.org/topics/tech/google-reader-fail-internet-outraged-again&quot;&gt;google-reader-fail-internet-outraged-again&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.reddit.com/r/ruby/comments/1dmgcg/a_selfhosted_antisocial_rss_reader_written_in_ruby/&quot;&gt;a&lt;em&gt;selfhosted&lt;/em&gt;antisocial&lt;em&gt;rss&lt;/em&gt;reader&lt;em&gt;written&lt;/em&gt;in_ruby&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theatlantic.com/technology/archive/2011/08/how-you-google-insights-from-our-atlantic-reader-survey/243636/&quot;&gt;243636&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2012/8/16/3246556/lpr-license-plate-reader&quot;&gt;lpr-license-plate-reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/2/11/3976218/google-reader-broken-posts-read-subscriptions-disappearing&quot;&gt;google-reader-broken-posts-read-subscriptions-disappearing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/3/19/4119006/the-best-google-reader-alternatives&quot;&gt;the-best-google-reader-alternatives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/3/24/4143238/google-decision-to-scrap-reader-influenced-by-cost-of-privacy-compliance&quot;&gt;google-decision-to-scrap-reader-influenced-by-cost-of-privacy-compliance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/4/30/4286534/diggs-google-reader-replacement-launch-beta-june&quot;&gt;diggs-google-reader-replacement-launch-beta-june&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/5/21/4350208/how-sam-clay-and-newsblur-survived-the-google-reader-shutdown-redesign&quot;&gt;how-sam-clay-and-newsblur-survived-the-google-reader-shutdown-redesign&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tuaw.com/2013/03/14/alternatives-to-google-reader-for-os-x-and-ios-users/&quot;&gt;alternatives-to-google-reader-for-os-x-and-ios-users&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tuaw.com/2013/05/08/feed-wrangler-a-subscription-based-rss-reader-for-web-and-ios/&quot;&gt;feed-wrangler-a-subscription-based-rss-reader-for-web-and-ios&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://pikareader.com&quot;&gt;pikareader.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Starred item search on pinboard.in&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pinboard.in/search/u:zabouti?query=RSS&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Some starred articles&lt;/h3&gt;
-
-&lt;p&gt;These articles are probably also in the &lt;em&gt;pinboard.in&lt;/em&gt; search.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://ask.slashdot.org/story/13/06/11/146226/slashdot-asks-how-will-you-replace-google-reader&quot;&gt;Slashdot discussion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://getgini.com/google-reader-alternatives&quot;&gt;Canonical list of Google Reader Alternatives&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://theoldreader.com/&quot;&gt;The Old Reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Open source, runs on linux, OSX, etc: &lt;a href=&quot;http://lzone.de/liferea&quot;&gt;liferea&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://yoleoreader.com/&quot;&gt;Yoleo Reader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Install your own reader in &lt;a href=&quot;https://github.com/owncloud/news&quot;&gt;Owncloud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://selfoss.aditu.de/&quot;&gt;Selfoss&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/melllvar/grr&quot;&gt;Grr&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.bazqux.com/2013/05/google-reader-like-list-view-and-few.html&quot;&gt;BazQux&lt;/a&gt; looks very nice. (&lt;a href=&quot;http://blog.bazqux.com/&quot;&gt;blog&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;This might be good for my jekyll blog. &lt;a href=&quot;http://mattgemmell.com/2013/05/22/designing-blogs-for-readers/&quot;&gt;Designing Blogs for Readers&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macmegasite.com/2013/04/12/horus-news-reader-1-0-for-mac-2/&quot;&gt;Horus News Reader 1.0 for Mac&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.loopinsight.com/redirect?s=/feed/&amp;amp;amp;u=http://feedwrangler.net/welcome.html&quot;&gt;Feed Wrangler wants to take over from Google Reader&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/social-networking/rockmelt-a-new-type-of-news-reader/&quot;&gt;Rockmelt: A New Type of News Reader&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/4/30/4286534/diggs-google-reader-replacement-launch-beta-june&quot;&gt;Digg&amp;#39;s Google Reader replacement to launch as beta in June&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/blogging-reviews/follow-the-blogs-you-love-in-one-place-with-bloglovin/&quot;&gt;Follow The Blogs You Love In One Place With Bloglovin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/multiplx-a-visual-google-reader-alternative-to-attract-the-masses/&quot;&gt;MultiPlx: A Visual Google Reader Alternative To Attract the Masses&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.reddit.com/r/ruby/comments/1dmgcg/a_selfhosted_antisocial_rss_reader_written_in_ruby/&quot;&gt;A self-hosted, anti-social RSS Reader written in Ruby&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/nextly-takes-advantage-of-the-keyboard-in-reading-your-news-feeds/&quot;&gt;Nextly: The Keyboard Powered News Reader&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/local-reader-6-excellent-rss-extensions-for-chrome/&quot;&gt;Local Reader – 6 Excellent RSS Extensions For Chrome&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tuaw.com/2013/05/08/feed-wrangler-a-subscription-based-rss-reader-for-web-and-ios/&quot;&gt;Feed Wrangler: A subscription-based RSS reader for web and iOS&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/the-feed-wranlger-the-feed-reader-designed-around-feeds/&quot;&gt;Feed Wranlger: The Feed Reader Designed Around Feeds&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.appstorm.net/reviews/media-reviews/syndifeed-is-a-simple-and-clutter-free-rss-reader/&quot;&gt;Syndifeed Is A Simple And Clutter Free RSS Reader&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/Athou/commafeed&quot;&gt;Commafeed: An Open Source Google Reader Clone&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macmegasite.com/2013/05/20/erudito-app-for-ipad-the-news-reader-for-massive-consumption-of-news/&quot;&gt;Erudito App for iPad : The News Reader for Massive Consumption of News&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Newsbar - an app for OSX and iOS.  It doesn&amp;#39;t appear to have a list view, but it might be interesting.  &lt;a href=&quot;http://www.newsbar-app.com/&quot;&gt;Newsbar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.theverge.com/2013/5/21/4350208/how-sam-clay-and-newsblur-survived-the-google-reader-shutdown-redesign&quot;&gt;NewsBlur, flush with Google Reader refugees, rolls out redesign&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.tuaw.com/2013/05/22/zite-update-is-aimed-at-google-reader-orphans/&quot;&gt;Zite update is aimed at Google Reader orphans&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.balloon-juice.com/2013/05/31/attention-google-reader-refugees/&quot;&gt;Attention Google Reader Refugees&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.ubergizmo.com/2013/06/feedly-announces-support-for-third-party-rss-apps/&quot;&gt;Feedly Announces Support For Third Party RSS Apps&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.macmegasite.com/2013/06/06/new-rss-reader-newsline-pro-announced-by-fortunate-bear/&quot;&gt;New RSS Reader, Newsline Pro, Announced by Fortunate Bear&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.infoworld.com/d/cloud-computing/feedly-wins-the-google-reader-expat-crown-219963&quot;&gt;Feedly wins the Google Reader expat crown&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/create-an-rss-feed-reader-google-spreadsheet/&quot;&gt;Create an RSS Feed Reader Using Google Spreadsheet&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://threads2.scripting.com/2013/june/letsNotRepeatTheGoogleReaderMistake&quot;&gt;Scripting News: Let&amp;#39;s not repeat the Google Reader mistake. &lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.makeuseof.com/tag/which-alternative-did-you-choose-for-google-reader-makeuseof-poll/&quot;&gt;Which Alternative Did You Choose For Google Reader? &lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.dzone.com/links/r/google_reader_alternative_with_bitnami_and_tiny_t.html&quot;&gt;Google Reader alternative with BitNami and Tiny Tiny RSS&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://chronicle.com/blogs/profhacker/replacing-google-reader/50103&quot;&gt;Profhacker - Replacing Google Reader&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
 </content>
 	</entry>
 	

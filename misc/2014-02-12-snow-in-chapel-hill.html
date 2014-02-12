@@ -11,7 +11,7 @@
 
   <title>
     
-      Syncing gitm with 2tlh &middot; george.entenman.name
+      It's Snowing in Chapel Hill &middot; george.entenman.name
     
   </title>
 
@@ -915,91 +915,27 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Syncing gitm with 2tlh</h1>
-  <span class="post-date">01 Sep 2013</span>
-  <h2>Bittorrent Sync</h2>
+  <h1 class="post-title">It's Snowing in Chapel Hill</h1>
+  <span class="post-date">12 Feb 2014</span>
+  <p><img src="/assets/02-2014-02-snow-house.jpg" alt="DESC"></p>
 
-<p>I&#39;ve tried but nothing happens at all.</p>
+<!--more-->
 
-<p><strong>gitm</strong> and <strong>2tlh</strong> can&#39;t <em>ping</em> each other, but I can <em>ssh</em> between them.</p>
+<h2>Show is still falling</h2>
 
-<h3>Allowing ping</h3>
+<p>It&#39;s covering ...<em>everything</em>.</p>
 
-<p>I followed advice from <a href="http://support.apple.com/kb/PH11198">Apple Support</a>, only I deselected stealth mode:</p>
+<h3>... our little garden-man</h3>
 
-<ul>
-<li>Choose Apple menu &gt; System Preferences, click Security &amp; Privacy, and then click Firewall.</li>
-<li>Click the lock icon to unlock it, and then type an administrator name and password.</li>
-<li>Click Firewall Options.</li>
-<li>Deselect the Enable Stealth Mode checkbox.</li>
-</ul>
+<p><img src="/assets/01-2014-02-snow-sculpture.jpg" alt="Little man"><br /></p>
 
-<p>Ping now works, but syncing doesn&#39;t.</p>
+<h3>... one of our pigs</h3>
 
-<h3>Listening</h3>
+<p><img src="/assets/03-2014-02-snow-pig.jpg" alt="Lil Pig"><br /></p>
 
-<p>The Preferences tab shows the port on which you are listening.</p>
+<h3>... our deck</h3>
 
-<p>Should both computers listen on the same port?</p>
-
-<h3>No devices show up</h3>
-
-<h2>SpiderOak Hive seems to do syncing like Bittorent Sync</h2>
-
-<p>Most of my problems required deleting <em>~/Library/Application Support/SpiderOak</em> and restarting <em>SpiderOak</em>.</p>
-
-<p><em>SpiderOak Hive</em> now seems to be syncing files between my Mac Mini and my MacBook Air.  Whew!</p>
-
-<h3>What is the difference between SpiderOak Sync and SpiderOak Hive?</h3>
-
-<p>If you look at the services listed by SpiderOak on their web pages, you&#39;ll read:</p>
-
-<p>SpiderOak offers 5 services in 1 solution: Online backup, sync, share, access and store.</p>
-
-<p>The word <em>Hive</em> is not used there.</p>
-
-<p>If I understand correctly, SpiderOak Sync can only sync items that are already being backed up by SpiderOak.  This implies that I cannot sync files larger than my account quota, which is 5GB.</p>
-
-<p>SpiderOak Hive, on the other hand, uses a folder that I am <em>not</em> backing up with regular <em>SpiderOak</em>.  So I&#39;m hopeful that I can sync files larger than my quota.</p>
-
-<p>I wonder what role SpiderOak Sync is supposed to play now?</p>
-
-<h3>Logging into SpiderOak Forums</h3>
-
-<p>According to the <a href="https://spideroak.com/forum/accounts/login/">login page for SpiderOak forums</a> I can &quot;Select the &#39;User Forums&#39; item in the SpiderOak application &#39;Help&#39; menu (Mac), or the SpiderOak notification tray icon (Windows, Linux). This is the recommended method. Why?&quot;</p>
-
-<p>Trouble is, my Mac Application has no help menu.  So is there a way to log into the forums without entering my username and password into a browser?</p>
-
-<h3>Reading SpiderOak forums</h3>
-
-<p>The page (https://spideroak.com/personal/) lists 5 services in 1 solution: Online backup, sync, share, access and store.</p>
-
-<p>Will someone please explain the difference between these services?</p>
-
-<p>I&#39;m not really that dumb a guy, but I can&#39;t figure out exactly what SpiderOak does, besides local encryption and online backup.</p>
-
-<p>I&#39;m writing this in as elementary a manner as I can because I need simple answers, explaining where data is stored and how it is transmitted by the various SpiderOak services that look the same to me.</p>
-
-<p>Here are my best guesses:</p>
-
-<ul>
-<li>SpiderOak Backup: copies files in the SpiderOak Hive folder to the server.</li>
-<li>SpiderOak Store: store files on the SpiderOak server.  I can&#39;t distinguish this from SpiderOak Backup.</li>
-<li>SpiderOak Hive: a special folder required by SpiderOak Backup.  Files placed in this folder will be copied to the server and synced to SpiderOak Hive folders on other machines.</li>
-<li>SpiderOak Sync: copies files from one computer to another.  I have trouble distinguishing this from SpiderOak Hive.</li>
-<li>SpiderOak Access: access files with a web browser (I haven&#39;t tried this).</li>
-<li>SpiderOak Share: let others see files with a web browser or possibly their SpiderOak apps (I haven&#39;t tried this).</li>
-</ul>
-
-<p>With Dropbox, I put my files in a folder whose name can be changed, and Dropbox copies them to its server.  If I add Dropbox to another machine, Dropbox will download the files from the server and populate the folder.  From then on, a change on either machine will update the server and the other machine - a form of syncing.</p>
-
-<p>As far as I can tell, this is what SpiderOak does.  This is what happens with the SpiderOak Hive folders on my two Macs: files are synchronized between them.</p>
-
-<p>So what else does SpiderOak Sync do?  If I understand correctly, SpiderOak Sync can only sync items that are already being backed up by SpiderOak.  In other words, the have to be in the SpiderOak Hive folder, too.  SpiderOak Sync allows me to select subfolders of the Hive folder, so maybe it&#39;s a way to prevent full synchronization between my machines, to only sync some of the files in the Hive folder?</p>
-
-<p>Another way to ask my question: what&#39;s the difference between Sync and what the Hive folder does?</p>
-
-<p>I was hoping to find a way to do what Bittorrent Sync does (except I unfortunately can&#39;t get that to work either): transmit files from one machine to the other without going to a central server.  I was hoping that Hive did this, but apparently Hive stores files on the SpiderOak server and cannot sync files larger than the storage space purchased.</p>
+<p><img src="/assets/04-2014-02-snow-deck.jpg" alt="Side deck"></p>
 
 
     <div id="disqus_thread"></div>
@@ -1028,15 +964,6 @@
     
       <li>
         <h3>
-          <a href="/misc/2014-02-12-snow-in-chapel-hill.html">
-            It's Snowing in Chapel Hill
-            <small>12 Feb 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
           <a href="/politics/2014-02-11-hkonj-march-in-raleigh.html">
             HKonJ March in Raleigh
             <small>08 Feb 2014</small>
@@ -1049,6 +976,15 @@
           <a href="/markdown/2014-02-03-jekyll-confusion.html">
             jekyll confusion
             <small>03 Feb 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/markdown/2014-01-30-adding-custom-domain-to-ge.github.io.html">
+            Adding a custom domain name to my jekyll blog
+            <small>30 Jan 2014</small>
           </a>
         </h3>
       </li>
