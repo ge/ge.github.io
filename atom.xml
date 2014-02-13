@@ -4,13 +4,69 @@
  <title>george.entenman.name</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2014-02-12T23:31:00-05:00</updated>
+ <updated>2014-02-13T15:37:44-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>snow fun</title>
+   <link href="http://localhost:4000/misc/2014-02-13-snow-fun.html"/>
+   <updated>2014-02-13T15:18:18Z</updated>
+   <id>http://localhost:4000/misc/snow-fun</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-03_snow_neighbors.jpg&quot; alt=&quot;Neighbors&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Dançons la Capucine</title>
@@ -736,8 +792,56 @@ $ git push -u origin
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- &amp;lt;p&amp;gt;It&amp;amp;#39;s wonderful how many memories flood back when I see this photograph of Iris.&amp;lt;/p&amp;gt;
+        --- ![Neighbors](/assets/2014-02-13-03_snow_neighbors.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;p&gt;It&amp;#39;s wonderful how many memories flood back when I see this photograph of Iris.&lt;/p&gt;&lt;/p&gt;
+
 &lt;!--more--&gt;
 
 &lt;h2&gt;This was in Como, Italy in 2000&lt;/h2&gt;
@@ -1928,12 +2032,60 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        ---     Dansons la capucine
-Y&amp;#39;a plus de pain chez nous
-Y&amp;#39;en a chez la voisine
-Mais ce n&amp;#39;est pas pour nous
-You !
+        --- ![Neighbors](/assets/2014-02-13-03_snow_neighbors.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+    Dansons la capucine
+    Y&amp;#39;a plus de pain chez nous
+    Y&amp;#39;en a chez la voisine
+    Mais ce n&amp;#39;est pas pour nous
+    You !&lt;/p&gt;
+
 &lt;!--more--&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;Dansons la capucine
 Y&amp;#39;a pas de feu chez nous
@@ -4214,7 +4366,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 4 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 5 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -4630,7 +4782,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 6 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 7 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],

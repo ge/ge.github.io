@@ -4,13 +4,69 @@
 	<title type="text" xml:lang="en"></title>
 	<link type="application/atom+xml" href="http://ge.github.io/feed/" rel="self"/>
  	<link type="text" href="http://ge.github.io" rel="alternate"/>
-	<updated>2014-02-12T23:31:00-05:00</updated>
+	<updated>2014-02-13T15:37:44-05:00</updated>
 	<id>http://ge.github.io</id>
 	<author>
 		<name>George Entenman</name>
 	</author>
 	<rights>Copyright (c) 2005-2014, George Entenman; all rights reserved.</rights>
 	
+	
+	<entry>
+		<title>snow fun</title>
+		<link href="http://ge.github.io/misc/2014-02-13-snow-fun.html"/>
+		<updated>2014-02-13T15:18:18Z</updated>
+		<id>http://ge.github.io/misc/snow-fun</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-03_snow_neighbors.jpg&quot; alt=&quot;Neighbors&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Dançons la Capucine</title>
@@ -736,8 +792,56 @@ $ git push -u origin
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- &amp;lt;p&amp;gt;It&amp;amp;#39;s wonderful how many memories flood back when I see this photograph of Iris.&amp;lt;/p&amp;gt;
+        --- ![Neighbors](/assets/2014-02-13-03_snow_neighbors.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;p&gt;It&amp;#39;s wonderful how many memories flood back when I see this photograph of Iris.&lt;/p&gt;&lt;/p&gt;
+
 &lt;!--more--&gt;
 
 &lt;h2&gt;This was in Como, Italy in 2000&lt;/h2&gt;
@@ -1928,12 +2032,60 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        ---     Dansons la capucine
-Y&amp;#39;a plus de pain chez nous
-Y&amp;#39;en a chez la voisine
-Mais ce n&amp;#39;est pas pour nous
-You !
+        --- ![Neighbors](/assets/2014-02-13-03_snow_neighbors.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our neighbors were out enjoying the snow this morning.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Neighbors of all ages were outside, chatting, visiting and sledding down our street, which is very steep.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-06_snow_baby.jpg&quot; alt=&quot;Snow Baby&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Shehzad was particularly enthusiastic&lt;/h2&gt;
+
+&lt;p&gt;Here you see him rounding a curve a bit behind two girls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-13_snow_shehzad_gaining.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you see that he caught up with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-15_snow_shehzad_even.jpg&quot; alt=&quot;Racing&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Huma wanted to ride down sitting on Shehzad, but he prefered to send her by herself.  She loved it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-61_snow_Huma.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Jason was out with his kids.&lt;/h2&gt;
+
+&lt;p&gt;I was a bit sad that he didn&amp;#39;t bring his dog, Winston, to tow their sled.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-65_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-81_snow_Jason.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Zane&lt;/h2&gt;
+
+&lt;p&gt;Shehzad gave Zane a ride on his back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-67_snow_Zane.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-78_snow_shehzad_and_zane.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Santa Claus&lt;/h2&gt;
+
+&lt;p&gt;Here I am, trying to look outdoorsy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-90_snow_ge.jpg&quot; alt=&quot;SNOW&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;We learned that our new metal roof doesn&amp;#39;t act like our old asphalt tile roof.  &lt;strong&gt;Snow slides down and off of a metal roof!&lt;/strong&gt;  I wish I had a video of the snow letting loose, shaking the house and making a terrible noise.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014-02-13-95_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+&lt;img src=&quot;/assets/2014-02-13-97_snow_sliding_off_roof.jpg&quot; alt=&quot;SNOW&quot;&gt;
+    Dansons la capucine
+    Y&amp;#39;a plus de pain chez nous
+    Y&amp;#39;en a chez la voisine
+    Mais ce n&amp;#39;est pas pour nous
+    You !&lt;/p&gt;
+
 &lt;!--more--&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;Dansons la capucine
 Y&amp;#39;a pas de feu chez nous
@@ -4214,7 +4366,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 4 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 5 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -4630,7 +4782,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 6 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 7 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -6368,150 +6520,6 @@ we do not know how much accumulation can occur naturally.
 &lt;h2&gt;Virginia and Leonard Woolf&amp;#39;s Wedding Day&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/199272/images/the_woolfs_wedding_day.jpg&quot; alt=&quot;Virginia and Leonard Woolf&amp;#39;s Wedding Day&quot;&gt;&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>KMAP Steering Committee Meeting June 25 2013</title>
-		<link href="http://ge.github.io/kmap/steering_committee/2013-06-26-kmap-steering-committee-meeting.html"/>
-		<updated>2013-06-26T09:48:55Z</updated>
-		<id>http://ge.github.io/kmap/steering_committee/kmap-steering-committee-meeting</id>
-		<content type="html">&lt;p&gt;Minutes from the KMAP Steering Committee meeting, June 25, 2013.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2&gt;KMAP steering committee meeting June 25 2013&lt;/h2&gt;
-
-&lt;p&gt;June 25, 2013 @ Joann Haggerty&amp;#39;s&lt;/p&gt;
-
-&lt;h2&gt;Disclaimer&lt;/h2&gt;
-
-&lt;p&gt;These notes have not been polished or vetted.&lt;/p&gt;
-
-&lt;h2&gt;Present&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Iris Tillman Hill&lt;/li&gt;
-&lt;li&gt;Joann Haggerty&lt;/li&gt;
-&lt;li&gt;Suzanne Lewis Brown&lt;/li&gt;
-&lt;li&gt;Mary Anderson&lt;/li&gt;
-&lt;li&gt;Jeanne van Gemert&lt;/li&gt;
-&lt;li&gt;Ellen Johnson&lt;/li&gt;
-&lt;li&gt;George Entenman&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Incorporation&lt;/h2&gt;
-
-&lt;h3&gt;Iris&lt;/h3&gt;
-
-&lt;p&gt;There are people who oppose incorporation, who just want to be good samaritans.  Tom Cooke opposed?&lt;/p&gt;
-
-&lt;p&gt;No reason not to pursue it.  Could perhaps get Meadowmont&amp;#39;s incorporation papers - they haven&amp;#39;t been sent yet.  &lt;/p&gt;
-
-&lt;p&gt;Franklin Street AP decided to go ahead w/o incorporation.  Project Compassion didn&amp;#39;t push for it; they said to be clear.  (Meadowmont people said that clarity isn&amp;#39;t protection enough.)  PC believes that a strong, clear relationship protects you.&lt;/p&gt;
-
-&lt;p&gt;Need legal advice.  Any lawyers in KMAP?&lt;/p&gt;
-
-&lt;p&gt;Jeanne Van Gammaert supports the idea.&lt;/p&gt;
-
-&lt;p&gt;George - why not start doing it and see if there&amp;#39;s push-back?&lt;/p&gt;
-
-&lt;p&gt;Joann - there are people who we know need help but who won&amp;#39;t join KMAP.  That is stretching it.  Perhaps we have the cart before the horse on the legal issue.&lt;/p&gt;
-
-&lt;p&gt;Suzanne&amp;#39;s story of getting a 501(c)3 ?  Pretty good story.&lt;/p&gt;
-
-&lt;p&gt;Suzanne - can get 2nd year law students to help with the legal issues.&lt;/p&gt;
-
-&lt;p&gt;Suzanne - they needed to use it 3 times for protection.&lt;/p&gt;
-
-&lt;p&gt;Iris - liability insurance is separate from 501(c)3.  Meadowmont - once people were driving others to appointments, they felt the need for insurance.&lt;/p&gt;
-
-&lt;p&gt;Suzanne - alternative: each person who helps others can take out personal umbrella insurance.&lt;/p&gt;
-
-&lt;p&gt;Jeanne - her Buddhist org does outreach, etc., so they have 501(c)3 just to be able to help others.&lt;/p&gt;
-
-&lt;p&gt;Suzanne - Katie Rose Guest Pryal, new neighbor in Whittaker&amp;#39;s old house - is a lawyer.&lt;/p&gt;
-
-&lt;p&gt;Jeanne - email whole neighborhood asking for a lawyer.&lt;/p&gt;
-
-&lt;p&gt;Iris - one more question: it might be useful to talk to Mary Fraser from the Seymour center and ask if they have lawyers who could help.  Iris will be able to pursue this in the 2nd part of July.&lt;/p&gt;
-
-&lt;p&gt;Suzanne - when law students arrive, they&amp;#39;re given assignments, so we should get up with Katie Rose Guest Pryal ASAP to get on the list.&lt;/p&gt;
-
-&lt;p&gt;Suzanne, &amp;quot;George, send an email to Katie Rose Guest Pryal&amp;quot;.  George: &amp;quot;Yes, Ma&amp;#39;am.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;Joann: let&amp;#39;s try to move forward by August.&lt;/p&gt;
-
-&lt;p&gt;Joann: Who&amp;#39;s going to make the case?  We have about 20 people who have been coming to the pubs - is that enough to afford insurance, etc?  Do we only help members?  What&amp;#39;s the point of membership if you&amp;#39;ll be helped anyway?  Perhaps we could go under Meadowmont?&lt;/p&gt;
-
-&lt;p&gt;Iris.  Perhaps Carolina Villages could be an umbrella group, but, says Joann, they don&amp;#39;t seem to be getting very organized.  They&amp;#39;re also possibly expensive.&lt;/p&gt;
-
-&lt;h2&gt;Project Compassion&lt;/h2&gt;
-
-&lt;p&gt;Joann changes discussion to Project Compassion.  I have trouble following the issues.
-Care teams, coordinated via Internet.  Should we get more training by PC?&lt;/p&gt;
-
-&lt;p&gt;Jeanne heard about PC by getting lost near their office.  She knew a young woman with lung transplants, who felt that PC saved her life.  PC has been around a lot.&lt;/p&gt;
-
-&lt;p&gt;Joann.  Is it time to start advertising services?&lt;/p&gt;
-
-&lt;p&gt;Iris.  They worked on a list of services at their pubs.  &lt;/p&gt;
-
-&lt;p&gt;Joann.  We&amp;#39;ll do that.&lt;/p&gt;
-
-&lt;p&gt;Ellen.  Helping Hands could already do that.  Is it used?&lt;/p&gt;
-
-&lt;p&gt;George.  You need to talk about it regularly - at pubs, say - for people to use it.
-/
-Iris.  Some of the services will probably require extensive periods of time.&lt;/p&gt;
-
-&lt;p&gt;Joann.  Let&amp;#39;s generate a list of services that people might provide.&lt;/p&gt;
-
-&lt;p&gt;Suzanne.  Each of us should go home and think about services that we would like to have if we&amp;#39;re sick.&lt;/p&gt;
-
-&lt;p&gt;Joann: Pub in July?  August? Make request to KMAP list?&lt;/p&gt;
-
-&lt;p&gt;Ainbinder in Bot Way?&lt;/p&gt;
-
-&lt;h2&gt;Book box&lt;/h2&gt;
-
-&lt;p&gt;No interest.&lt;/p&gt;
-
-&lt;h2&gt;Yard Sale&lt;/h2&gt;
-
-&lt;p&gt;Suzanne still has a lot of stuff to get rid of.&lt;/p&gt;
-
-&lt;p&gt;People could bring stuff to her drive and sell it.  Potluck for lunch, etc.  Then have someone pick up stuff that&amp;#39;s left at end.&lt;/p&gt;
-
-&lt;p&gt;Suzanne feels that young people in neighborhood think we&amp;#39;re not very useful.  This is a way to give us elders a meaning to them.&lt;/p&gt;
-
-&lt;p&gt;Need date and rain date.&lt;/p&gt;
-
-&lt;p&gt;Proceeds go to individuals selling.&lt;/p&gt;
-
-&lt;p&gt;Students - when do they come into town?&lt;/p&gt;
-
-&lt;p&gt;Find out pickup schedule for Salvation Army, Habitat, etc.&lt;/p&gt;
-
-&lt;p&gt;Find out when different students come to UNC.&lt;/p&gt;
-
-&lt;p&gt;Date seems to be August 4th or 11th?&lt;/p&gt;
-
-&lt;h2&gt;Other ideas&lt;/h2&gt;
-
-&lt;h3&gt;House tour service&lt;/h3&gt;
-
-&lt;p&gt;Art tour&lt;/p&gt;
-
-&lt;p&gt;Ellen - substitute an art walk for a pub?  But that doesn&amp;#39;t let younger people go....&lt;/p&gt;
-
-&lt;h3&gt;Adopt a grandparent&lt;/h3&gt;
-
-&lt;p&gt;Jeanne: chalk drawings on street.&lt;/p&gt;
-
-&lt;h3&gt;Next KMAP Steering Comm&lt;/h3&gt;
-
-&lt;p&gt;If pub is Aug 16th, then we should meet Aug 13th at Suzanne&amp;#39;s?&lt;/p&gt;
 </content>
 	</entry>
 	
