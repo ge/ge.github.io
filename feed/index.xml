@@ -4,7 +4,7 @@
 	<title type="text" xml:lang="en"></title>
 	<link type="application/atom+xml" href="http://ge.github.io/feed/" rel="self"/>
  	<link type="text" href="http://ge.github.io" rel="alternate"/>
-	<updated>2014-02-12T23:12:05-05:00</updated>
+	<updated>2014-02-12T23:28:25-05:00</updated>
 	<id>http://ge.github.io</id>
 	<author>
 		<name>George Entenman</name>
@@ -14,9 +14,9 @@
 	
 	<entry>
 		<title>Dançons la Capucine</title>
-		<link href="http://ge.github.io/misc/2014-02-12-dançons-la-capucine.html"/>
+		<link href="http://ge.github.io/misc/2014-02-12-dancons-la-capucine.html"/>
 		<updated>2014-02-12T18:19:04Z</updated>
-		<id>http://ge.github.io/misc/dançons-la-capucine</id>
+		<id>http://ge.github.io/misc/dancons-la-capucine</id>
 		<content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;Dansons la capucine
 Y&amp;#39;a plus de pain chez nous
 Y&amp;#39;en a chez la voisine
