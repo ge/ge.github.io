@@ -1,0 +1,602 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Chile_7_Santiago</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+
+	ge: began with: /Users/ge/Library/Application Support/Marked/Custom CSS/Custom Example.css
+
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+	font: normal 1em/2.5em "Courier", monospace;
+    margin:0
+}
+
+html>body
+{
+    /* font-size:13px */
+	font: normal 1em/2.5em "Courier", monospace;
+    font-size: 12pt;
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0;
+    font-weight:200;
+	font-style:italic;
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    /* font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; */
+	font-family: "Courier", monospace;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:80%;
+    height:auto
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    /* font-family:Georgia, Garamond, serif!important; */
+	font-family: "Courier", monospace;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    /* font-family:Georgia, Garamond, serif!important */
+	font-family: "Courier", monospace;
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+p {
+	color: #111;
+    font-weight:900;
+}
+
+</style>
+
+</head>
+<body class="normal poetry firstload">
+  <div id="wrapper">
+      <p><a id="top"></a><br/>
+<a href="index.html">Home</a>|<a href="Chile.html">Chile Map</a>|<a href="Chile_6_Lake_District_and_Chiloe.html">Lake District and Chiloe</a>|<a href="Chile_7_Santiago.html">Santiago</a>|<a href="Chile_8_Valparaiso.html">Valpara&iacute;so</a></p>
+
+
+<ul style="display: block;" id="mkreplaced-toc" class="max-6"><li class="notmissing"><a href="#santiago" class="wiki-link">Santiago, Chile</a><ul><li class="notmissing"><a href="#dayone" class="wiki-link">Weds, Nov 6 - First day in Santiago</a></li><li class="notmissing"><a href="#biketour" class="wiki-link">Thurs, Nov 7 - Bicycle tour of Santiago</a></li><li class="notmissing"><a href="#thecity" class="wiki-link">Nov 8 - Santiago</a></li></ul></li><li class="notmissing"><a href="#valpo" class="wiki-link">Day Trip to Valparaíso, Chile</a></li><li class="notmissing"><a href="#backhome" class="wiki-link">Sun, Nov 10 - last day in Santiago, Chile</a></li></ul>
+
+
+
+<h1 id="santiago">Santiago, Chile</h1>
+
+<h2 id="dayone">Weds, Nov 6 - First day in Santiago</h2>
+
+<p>We took a taxi from the huge bus station to Luiz's apt, worried that we would have trouble getting in. </p>
+
+<p>Que nada! It was easy! Luiz's place was on the 12th floor, facing a train line and a very fast road. It was extremely noisy there, even after Iris' mother's place in Manhattan. There are no guest sheets or towels. No spare t.p. No pillow cases at all. TV is over-the-air only, but only because Luiz doesn't want to pay for a service he doesn't use. There is no air conditioning, but surely it's needed in hot months? There are few services nearby. People may work in the area but live elsewhere. </p>
+
+<p>Compared to Brasil, there is a good deal less Wi-Fi access in Chile. (A woman at the state tourist agency later admitted that Chile needs to work on that.) </p>
+
+<p>We took the metro to Plaza de Armas in central Santiago and walked around. We saw a demonstration. We talked to a tourist agency.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1630lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1635lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1637lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1643lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We walked to a very touristy fish market and left. David ate chicken in a much cheaper place around the corner. </p>
+
+<p>We walked across the horribly muddy river and discovered a non-tourist mercado. We had coffee and hope to return for lunch.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1656lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We walked towards Neruda's house, finding a non-politically-correct sign and then a caf&eacute; with Wi-Fi!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1663lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>Finally we came to Neruda's house, beautifully sited on a hillside. We weren't allowed to take photos inside.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1667lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We toured Pablo Neruda's house with little electronic guides. George loved his giant shoes. The narrator of the electronic guide said he got them as a child, but he heard him say the shoes came from Neruda's <em>year as a giant</em>, and George liked his version better </p>
+
+<p>We went to San Cristoval, a mountain in the middle of the city with a large statue of the Virgin Mary on top. George walked up - it was hard! David took the funicular up and waited for George.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1671lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1677lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1697lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>Even more than from our apartment, it was clear that Santiago is very flat, perhaps a dry lake, like Mexico City, which Santiago reminds us of. George wonder if Chile doesn't have better water? </p>
+
+<p>After awhile, we took the funicular down. We found Pio Nono, a wonderful street with lots of sidewalk bars for the kids and us. There were lots of bicycle riders! We also found what looked like a sort of adult restaurant paradise surrounded by Pio Nono, Dardignac, Constitution and Bellavista streets. Then we had an OK dinner in one of the adult bars and decided that adults don't eat very well there.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1699lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1701lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>Walking back from the restaurant to the metro, David stopped to look at hats in a little sort of artists fair. George started talking with Denis Ramon Fortoul, who made an anniversary greeting for Iris. Later he found enough Wi-Fi to send it to Iris.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1705lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1708lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1711lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>David's cough seems to have returned. </p>
+
+<p>David and George had a little conflict over his whining at the horrible checkout line at the Lider supermarket - a store that is easily as soul-deadening as any U.S. Walmart or Food Lion. At least David has gotten good at telling him to stop, and George got fairly good at stopping! </p>
+
+<p>The Lider store did have a cool hole in the wall for recycling bottles and giving refunds. </p>
+
+<h2 id="biketour">Thurs, Nov 7 - Bicycle tour of Santiago</h2>
+
+<p>We went to a large, very spacious and beautiful cultural center looking for Wi-Fi and stayed there for awhile. </p>
+
+<p>We walked to our market for lunch. </p>
+
+<p>We walked through a slightly older part of town to the bike tour place. We were early and they had good Wi-Fi in a sort of meditation garden, so it was easy to wait. </p>
+
+<p>We had two tour guides. Our front guide, Catalina, was a small, slight woman of 20. Our rear guide Philipe, 22, was athletic and strong. Both very sweet, with a deep seriousness that inspired confidence. </p>
+
+<p>We started out on a 21km tour, Catilina in the lead, followed by David, George and Philipe. </p>
+
+<p>They took us first to a huge cemetery, the size of 22 soccer fields, where we rode through kilometers of monuments, flowers, trees and visitors. Catalina finally stopped at a large monument to people who had disappeared under Pinochet; Allende's name was in the center of the monument. Names on one side were those of people who had been accounted for; names on the other were those who had truly disappeared. </p>
+
+<p>A bit later we stopped at Allende's own monument. David and George felt very ashamed of our country. </p>
+
+<p>We rode through cemeteries, parks, markets, and along very busy streets with cars and busses whizzing beside us. </p>
+
+<p>Catalina was very obedient about traffic lights, so we had some long waits for lights to change. </p>
+
+<p>The longest, toughest haul was up the Alemeda's bike path, threading thru pedestrians, other bikes, buses and cars. George was dehydrated and had to buy water. </p>
+
+<p>When we finally got back to the bike shop, they told us they no longer had prices, only tips. Bike tours may be a way to get customers for their other, paying tours, they said. We felt a little funny about having to pay what we wanted.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1722lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1724lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1732lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1733lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1739lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1746lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1747lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1751lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1754lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1757lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<h2 id="thecity">Nov 8 - Santiago</h2>
+
+<p>The view from our apartment.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1715lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_06_1716lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We searched for a bicycle shop where David could find some unique bicycle clothing or gear for Heidi. Unfortunately all bike clothing appears to be imported. </p>
+
+<p>A small museum to the disappeared under Pinochet.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1778lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_07_1776lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We went to a book fair, which was impressively large - Santiago has lots of serious bookstores. There was almost no real technology or science. On the other hand there was lots of philosophy, psychoanalysis, etc. as well as lots of children's books</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1781lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We took the metro to a big park at the <em>Quinta Normal</em> metro stop, where we walked around, sat on benches, napped in the sun, drank cofffee and watched many wonderful people. We decided that we both looked forward to being home but needed to use our last day fully. We agreed that we could best to this by going to Valpara&iacute;so on a bus the next day. </p>
+
+<p>Then we went to a train museum in the park to look at locomotives.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1793lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1798lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1809lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We took the metro back to the Bellas Artes stop near the Cerro Santa Lucia park, where we could climb our last hill in Santiago. As we climbed up, we passed through a nice hillside park filled with entwined couples. At the top we climbed up to the observation tower which had a wonderful view of Santiago and the surrounding mountains.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1817lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1819lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>David started talking with two cornfed guys from Notre Dame who are studying business at the Catholic University down on the avenue below. They told us that 90% of Chile's wealth is owned by 10 families! They also told us about a huge mall near the giant tower in the fancy section of town - we decided that we had to go there. </p>
+
+<p>We took the metro to the area near the Costanera Center, a huge soul-sucking place dedicated to convincing people that they could be original by buying the right products. It even had a whole floor of fast food places.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1838lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>We left the Costanera Center by walking across a pedestrian bridge. We soon found a wonderful, real restaurant!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1842lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/4_santiago/2013_11_08_1844lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h1 id="valpo">Day Trip to Valpara&iacute;so, Chile</h1>
+
+<p>We took an early bus to <a href="Chile_8_Valparaiso.html">Valpara&iacute;so</a>, where we spent the day. </p>
+
+<p>Back in Santiago, we walked to the metro and went home for the evening.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/5_valparaiso/2013_11_09_2008lo-res.jpg" alt="Valparaiso, Chile" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h1 id="backhome">Sun, Nov 10 - last day in Santiago, Chile</h1>
+
+<p>After we finished packing, we went to a caf&eacute; with Wi-Fi for coffee. </p>
+
+<p>We made one last stroll through the <em>Plaza de Armas</em> and on to the fish market (Mercado Central), this time on a street not usually taken by tourists for some reason. This street led us to the rear entrance of the market, an entrance apparently used by fewer tourists. </p>
+
+<p>The high-pressure tactics to get us to eat at the <em>Marisqueria San Jose, Local 23</em> almost bothered George enough to make him keep walking, but fortunately we sat down, lured by the chalk sign promising <em>Caldillo de C&oacute;ngrillo</em>, eel soup. </p>
+
+<p>We were wondering why we were being kept waiting so long, when the cook walked in with two pieces of eel from a nearby stall in her hands! </p>
+
+<p>This was our best meal in Chile! Not only was the soup superb, this part of the market was filled with joyful cheers from nearby places with televisions. It turned out that one of Santiago's local teams was beating another one. Each cry of <em>Gol!</em> resulted in men in aprons and rubber boots running back and forth, hugging each other or throwing ice at unseen people. It was like an immense family event. </p>
+
+<p>We walked to subway - stopping to drink Starbucks coffee when we couldn't find any place else. We took the metro home, still crowded as always. </p>
+
+<p>Then we took a limo service to the airport, changed our remaining pesos into dollars, ate a last bit of airport food and headed towards our separate airlines home.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013-11-10-carlos-12-51-31_352lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2023lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2024lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2027lo-res.jpg" alt="Santiago, Chile" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2033lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p><a href="http://www.subpesca.cl/institucional/602/w3-article-829.html">Congrio Dorado</a>. We don't know if this is what we had, but the cook had surely bought our eels here or near here.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2034lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>Unlike certain other capitalism-obsessed countries, Chile seems to close many businesses on Sunday, making it an excellent day to take a limo to the airport and head for home!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/4_chile/6_santiago/2013_11_10_2037lo-res.jpg" alt="Santiago, Chile" /> </p>
+
+<p>Mon, Nov 11 - Hello, America! </p>
+
+<p><a href="#top">top</a></p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>

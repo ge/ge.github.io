@@ -1,0 +1,669 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Brazil_2_Rio_de_Janeiro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+
+	ge: began with: /Users/ge/Library/Application Support/Marked/Custom CSS/Custom Example.css
+
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+	font: normal 1em/2.5em "Courier", monospace;
+    margin:0
+}
+
+html>body
+{
+    /* font-size:13px */
+	font: normal 1em/2.5em "Courier", monospace;
+    font-size: 12pt;
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0;
+    font-weight:200;
+	font-style:italic;
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    /* font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; */
+	font-family: "Courier", monospace;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:80%;
+    height:auto
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    /* font-family:Georgia, Garamond, serif!important; */
+	font-family: "Courier", monospace;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    /* font-family:Georgia, Garamond, serif!important */
+	font-family: "Courier", monospace;
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+p {
+	color: #111;
+    font-weight:900;
+}
+
+</style>
+
+</head>
+<body class="normal poetry firstload">
+  <div id="wrapper">
+      <p><a href="Index.html">Home</a>|<a href="Brazil.html">Brazil Map</a>|<a href="Brazil_1_Indaiatuba.html">Indaiatuba</a>|<a href="Brazil_2_Rio_de_Janeiro.html">Rio de Janeiro</a>|<a href="Brazil_3_Florianopolis.html">Florian&oacute;polis</a>|<a href="Brazil_4_Porto_Alegre.html">Porto Alegre</a>
+<a id="top"></a></p>
+
+
+<ul style="display: block;" id="mkreplaced-toc" class="max-6"><li class="notmissing"><a href="#rio" class="wiki-link">Rio de Janeiro</a><ul><li class="notmissing"><a href="#riodayone" class="wiki-link">Oct 4th - Our first day in Rio de Janeiro</a><ul><li class="notmissing"><a href="#triptorio" class="wiki-link">Flight from Viracopos to Rio</a></li><li class="notmissing"><a href="#apartment" class="wiki-link">The apartment of Zé and Jacira - Simone and Rejane's parents</a></li><li class="notmissing"><a href="#feira" class="wiki-link">The Feira Nordestina in São Cristóvão with Rejane</a></li></ul></li><li class="notmissing"><a href="#teresa" class="wiki-link">Saturday, Oct 5 - Tour with Teresa</a><ul><li class="notmissing"><a href="#museum" class="wiki-link">This wonderful museum is in Niteroí, looking back at Rio.</a></li><li class="notmissing"><a href="#fort" class="wiki-link">Fortaleza de Santa Cruz da Barra em Niteroí</a></li><li class="notmissing"><a href="#atlantico" class="wiki-link">The first beach outside of Guanabara Bay</a></li><li class="notmissing"><a href="#dinner" class="wiki-link">A wonderful all-you-could-eat seafood dinner back in Rio</a></li></ul></li><li class="notmissing"><a href="#citytour" class="wiki-link">Sunday, Oct 6 - Touring Rio de Janeiro</a><ul><li class="notmissing"><a href="#museunational" class="wiki-link">Museu National and São Cristóvão</a></li><li class="notmissing"><a href="#rock" class="wiki-link">The Forte Duque de Caixas in Leme with Flávio</a></li><li class="notmissing"><a href="#favelas" class="wiki-link">Chapéu Mangueira and Babilonia with Flávio</a></li></ul></li><li class="notmissing"><a href="#goodbye" class="wiki-link">Monday Oct 7 - Good-Bye to Dear Friends</a><ul><li class="notmissing"><a href="#yonne" class="wiki-link">Last visit to Yonne de Freitas Leite</a></li><li class="notmissing"><a href="#stateresa" class="wiki-link">Santa Teresa neighborhood</a></li><li class="notmissing"><a href="#lastmeal" class="wiki-link">Good-bye dinner with Simone and Rejane</a></li></ul></li></ul></li></ul>
+
+
+
+<h1 id="rio">Rio de Janeiro</h1>
+
+<h2 id="riodayone">Oct 4th - Our first day in Rio de Janeiro</h2>
+
+<h3 id="triptorio">Flight from Viracopos to Rio</h3>
+
+<p>Mauro drove us to Viracopos airport in his nice new Volvo. </p>
+
+<p>Both David and George tried to get money from several ATMs and failed. Uh oh! </p>
+
+<p>On the flight on Azul airlines George took out his Invisiline retainers to eat the snack. When George looked for them later, the case was gone. </p>
+
+<p>David got off the plane while George waited with the stewardess, who assured him they would look through the trash and bring the case to him in the baggage claim. George went to the terminal in a van, which left him at the wrong baggage claim! No baggage, no David, no one willing or able to help. George walked around frantically, talking to people, to no avail. </p>
+
+<p>Finally someone hinted that there was a second Azul baggage claim but George knew if he exited, he couldn't return. George was asking two men guarding the gate for help - they suggested that he exit and go to the Azul ticket counter but he was worried about not getting back in - when he heard his name: it was Simone! She had had a sign with George's name on it, and David had found her! </p>
+
+<p>Simone's friend Danilton helped us file a complaint with Azul airlines. </p>
+
+<p>(A little later, George realized that he had left his medical supplies at Eliana and Mauro's! We got these wonderful friends to send them to him in Florian&oacute;polis.)</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_04_9474lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_04_9477lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h3 id="apartment">The apartment of Z&eacute; and Jacira - Simone and Rejane's parents</h3>
+
+<p>Rejane and Simone's parents are fit, friendly, religious, kind people living in a small apartment with two grown daughters! We had to move around very carefully. </p>
+
+<p>We immediately sat down while Simone made cheese turnovers with tapioca. Z&eacute; later added lunch meat. As you might imagine, David was fascinated and curious about the food, charming everyone with his interest and questions. </p>
+
+<p>This is the kitchen in Joz;eacute; and Jacira's wonderful apartment. We could not have felt more welcome. Unfortunately neither David nor George took any photos of them. Maybe it was like taking photos of our own parents - we just didn't even think of doing it or maybe we were too busy eating!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9600lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9601lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9602lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h3 id="feira">The Feira Nordestina in S&atilde;o Crist&oacute;v&atilde;o with Rejane</h3>
+
+<p>The apartment where Rejane and Simone live with their wonderful parents, Jos&eacute; and Jacir&aacute;, is in the area of Rio de Janeiro called S&atilde;o Crist&oacute;v&atilde;o, an area where many people like Jos&eacute; and Jacir&aacute; have moved from the Northeast of Brasil. </p>
+
+<p>There is a large fairground near their apartment where there is a frequent Northeastern Fair. </p>
+
+<p>It was dark by the time we got there and it was very noisy, with highly amplified bands everywhere. Rejane taught David about lots of new foods, and we ended up with a big plastic bag of interesting treats. David and George danced with Rejane, trying to do the forro to extremely loud, lively music.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013-10-05-carlos-00-05-59_934lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013-10-05-carlos-00-06-09_970lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013-10-05-carlos-00-07-24_214lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013-10-05-carlos-00-35-31_2lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013-10-05-carlos-00-35-40_355lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="teresa">Saturday, Oct 5 - Tour with Teresa</h2>
+
+<p>Our friend Teresa - a very close friend of Simone and Rejane - drove in and took David, Rejane and George on a long trip to the other side of the Bay of Guanabara, across from Rio de Janeiro. Simone was so busy studying for her graduate school courses that she couldn't go with us unfortunately. </p>
+
+<h3 id="museum">This wonderful museum is in Nitero&iacute;, looking back at Rio.</h3>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9482lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9493lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<p>Our favorite periodontist looking at some weird teeth.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9503lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<h3 id="fort">Fortaleza de Santa Cruz da Barra em Nitero&iacute;</h3>
+
+<p>Why are such horrible places so beautiful? One of the women in our group pointed out that many people were tortured and killed here during the military dictatorship not many years ago.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9530lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9547lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9549lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9555lo-res.jpg" alt="Rio de Janeiro,Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9565lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<h3 id="atlantico">The first beach outside of Guanabara Bay</h3>
+
+<p>Looking back towards Rio from the Atlantic. It was magical.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9574lo-res.jpg" alt="Rio de Janeiro,Brasil" /> </p>
+
+<p>Remnants of a mysterious sacrifice.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9575lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>The best selfie of the whole trip.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9582lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<h3 id="dinner">A wonderful all-you-could-eat seafood dinner back in Rio</h3>
+
+<p>Then we went shopping in a supermarket.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9593lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9597lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="citytour">Sunday, Oct 6 - Touring Rio de Janeiro</h2>
+
+<h3 id="museunational">Museu National and S&atilde;o Crist&oacute;v&atilde;o</h3>
+
+<p>David and George took an early morning walk here. Yonne used to work at the National Museum. </p>
+
+<p>When we got back, we had breakfast with the de Oliveira family in their wonderful kitchen.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9598lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_05_9599lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<h3 id="rock">The Forte Duque de Caixas in Leme with Fl&aacute;vio</h3>
+
+<p>Simone put us on the 472 bus to Leme. From the bus stop it was just a short walk to Flavio's apartment, which faces the favela of Babilonia. </p>
+
+<p>We had our first beers of the day. </p>
+
+<p>A view of the Chap&eacute;u Mangueira and Babilonia favelas from Fl&aacute;vio's apartment.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9603lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>We walked to the top of the Rock of Leme.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9609lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9614lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9615lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9624lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_868lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_870lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_876lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_889lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<h3 id="favelas">Chap&eacute;u Mangueira and Babilonia with Fl&aacute;vio</h3>
+
+<p>We walked back down from the Rock. Just before we got to Fl&aacute;vio's apartment, he turned suddenly up a steep, narrow alley and headed up into the favela.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9637lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9639lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>In the Chap&eacute;u Mangueira favela we sat at a table in a sort of square with musicians playing and drank more beer, surrounded by tourists and residents.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9641lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9643lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>Like a number of favelas in Rio, Babilonia is <a href="http://www.npr.org/blogs/parallels/2013/06/10/187325080/once-unsafe-rios-shanty-towns-see-rapid-gentrification">being gentrified</a>, partly <a href="http://www.theatlanticcities.com/housing/2013/12/favela-still-favela-once-it-starts-gentrifying/7726/">because other parts of Rio have become so expensive</a>, partly because it's a cool thing to do. There are even <a href="http://riobybike.com/en/blog-about-rio-de-janeiro/grab-a-bite-in-a-slum">Grab a Bite in a Slum</a> if you want! </p>
+
+<p>Fl&aacute;vio continued up into the favela, leading us to a red and black bar that was <em>not</em> filled with tourists. We sat down and ordered more beer. Fl&aacute;vio asked about his friend Chico. </p>
+
+<p>Suddenly, as if he'd been alerted somehow, Chico appeared! He joined us for beer.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9647lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9649lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9651lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9652lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>Chico told Fl&aacute;vio about a route through the favela to a place that that he didn't know about so we decided to go there. </p>
+
+<p>On the way we saw a sign saying to follow the stars painted on the ground. Clearly this was a touristy destination. In fact, it turned to be owned by a Belgian. </p>
+
+<p>Chico met a group of female relatives in a square. One's pregnant belly was exposed, but we didn't feel like taking photos. </p>
+
+<p>We ended up at a place with a spectacular view and lots of friendly people, mostly Brazilian, as far as we could tell, but mostly from outside the favela. </p>
+
+<p>We drank yet more beer. Chico borrowed 20R from Fl&aacute;vio - their first loan. Fl&aacute;vio seemed to take this at a sign that their friendship was deepening. He didn't expect the loan to be repaid.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9662lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9663lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9667lo-res.jpg" alt="Rio de Janeiro, Brasil" /></p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_891lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>We all fell in love with Pricilla, who set up a table with food that had been thrown away.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_flavio_898lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9681lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>We left Chico and walked back downhill to a restaurant in Leme.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_06_9685lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p>Afterwards we sat around in Flavio's apartment while David napped. </p>
+
+<p>George called Marcia and told her about his problems with his SECU debit card. She recommended using an ATM at HSBC. After saying goodbye to Fl&aacute;vio, we walked to an HSBC. David got money; George didn't. Frustration. </p>
+
+<p>We took a taxi back to Rejane's apartment for the night. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="goodbye">Monday Oct 7 - Good-Bye to Dear Friends</h2>
+
+<p>11am, David went to Sta Teresa, a beautiful old part of town, while George visited his old, dear friend Yonne de Freitas Leite. </p>
+
+<p>Yonne was in her apartment with a nurse, her wonderful housekeeper, Dona Dalva and Yonne's cousin, Maria Teresa. </p>
+
+<h3 id="yonne">Last visit to Yonne de Freitas Leite</h3>
+
+<p>Yonne in 2010: <img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2010_11_14_Yonne.jpg" alt="Yonne in 2010" /> </p>
+
+<p>No photos from our visit will be made public: Yonne didn't recognize George - she recognizes almost no one. The wonderful person I met 40 years ago in Austin, Texas has left us. </p>
+
+<p>Yonne's niece Maria Teresa, came to be with George and Yonne: George was possibly more upset by her pain than by the state Yonne was in, probably because Yonne seems to experience no happiness and only fleeting sadness and neediness when her head is caressed - Maria Teresa says Yonne liked &quot;carinho&quot;, which made George even sadder because he knew some details of what Yonne suffered during her earlier life. </p>
+
+<p>Dona Dalva fixed an excellent lunch. Yonne was able to put a little food in her mouth, but was fed primarily by her nurse. There was lots of food on her chin and the floor </p>
+
+<p>David arrived at 1:30 and came up. We are both glad he met Yonne. </p>
+
+<p>George posted a good-bye to <a href="http://zabouti.tumblr.com/post/63644470690/on-monday-october-7th-i-said-good-bye-to-yonne-de">our tumblr blog</a> </p>
+
+<pre><code>On Monday October 7th I said good-bye to Yonne de Freitas Leite.  
+
+Yonne no longer recognizes many people, certainly not me.  
+
+Perhaps the saddest moment of my visit was when I stroked her head with my hand and she calmed down just a little, her face softening a bit from her almost constant rage and horror. Her nurse said, “Ela responde ao carinho”, “She responds to warmth”. I remembered just how desperately she missed the love she needed and deserved.  
+
+I met the Yonne I prefer to remember as a fellow graduate student in Linguistics. She invited a number of us to a Brazilian Carnaval — where l fell in love with Brazil.  
+
+We started meeting in her apartment most weekdays to visit and to work on her dissertation. We talked endlessly - this was how I learned Portuguese. We usually ate dinner together and watched her favorite TV shows, _Hawaii Five-O_, _Kung Fu_ and _Streets of San Francisco_.  
+
+Working daily on her dissertation, usually at a rate of 2-3 paragraphs per day, was one of the most exciting intellectual tasks in my life, and it helped me understand just how deep Yonne’s intuitions about language were.  
+
+I think one of the other highlights of her life was the time she lived with the Tapirap&amp;eacute; Indians. She always wanted to return to live with them.  
+
+I miss her deeply.  
+</code></pre>
+
+<h3 id="stateresa">Santa Teresa neighborhood</h3>
+
+<p>Before joining George at Yonne's apartment, David had discovered the amazing Selaron Stairs in the Santa Teresa quarter of Rio and he took him through the area.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9700lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9704lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9705lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9711lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9723lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9740lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/2013_10_07_9743lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<h3 id="lastmeal">Good-bye dinner with Simone and Rejane</h3>
+
+<p>It was so sad to leave our dear friends in Rio.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/iPad_photo_0171lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/iPad_photo_0189lo-res.jpg" alt="Rio de Janeiro, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/2_riodejaneiro/iPad_photo_0191lo-res.jpg" alt="Rio de Janeiro, Brasil" /> </p>
+
+<p><a href="#top">top</a></p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>

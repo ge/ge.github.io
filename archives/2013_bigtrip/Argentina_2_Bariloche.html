@@ -1,0 +1,551 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Argentina_2_Bariloche</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+
+	ge: began with: /Users/ge/Library/Application Support/Marked/Custom CSS/Custom Example.css
+
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+	font: normal 1em/2.5em "Courier", monospace;
+    margin:0
+}
+
+html>body
+{
+    /* font-size:13px */
+	font: normal 1em/2.5em "Courier", monospace;
+    font-size: 12pt;
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0;
+    font-weight:200;
+	font-style:italic;
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    /* font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; */
+	font-family: "Courier", monospace;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:80%;
+    height:auto
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    /* font-family:Georgia, Garamond, serif!important; */
+	font-family: "Courier", monospace;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    /* font-family:Georgia, Garamond, serif!important */
+	font-family: "Courier", monospace;
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+p {
+	color: #111;
+    font-weight:900;
+}
+
+#generated-toc-clone,#generated-toc{display:none!important}hr{border:none!important;page-break-after:always!important}
+
+</style>
+
+</head>
+<body class="normal poetry firstload">
+  <div id="wrapper">
+      <p><a id="top"></a><br/>
+<a href="Index.html">Home</a>|<a href="Argentina.html">Argentina Map</a>|<a href="Argentina_1_Buenos_Aires.html">Buenos Aires</a>|<a href="Argentina_2_Bariloche.html">Bariloche</a></p>
+
+
+<ul style="display: block;" id="mkreplaced-toc" class="max-6"><li class="notmissing"><a href="#bariloche" class="wiki-link">Bariloche</a><ul><li class="notmissing"><a href="#triptobariloche" class="wiki-link">Mon, Oct 21 - Buenos Aires to San Carlos de Bariloche</a></li><li class="notmissing"><a href="#llaollao" class="wiki-link">Tues, Oct 22 - Walk around Llao Llao</a></li><li class="notmissing"><a href="#frey" class="wiki-link">Weds, Oct 23 - Hike to Refugio Frey</a></li><li class="notmissing"><a href="#cerrocampanario" class="wiki-link">Thurs, Oct 24 - Bariloche and Cerro Campanario</a></li><li class="notmissing"><a href="#elbolon" class="wiki-link">Fri, Oct 25 - El Bolón and Lago Puelo</a></li></ul></li></ul>
+
+
+
+<p><a href="#top">top</a> </p>
+
+<h1 id="bariloche">Bariloche</h1>
+
+<h2 id="triptobariloche">Mon, Oct 21 - Buenos Aires to San Carlos de Bariloche</h2>
+
+<p>David and George spent the morning in the apartment, doing tasks such as making a reservation for that evening in Bariloche. David found a terrific place. </p>
+
+<p>Virginie came by as we were waiting for a car service to arrive to take us to the airport. Good thing, too, because the service had gone to the wrong place and required her help to get to our apartment! </p>
+
+<p>Our plane finally got to Bariloche, a high town next to a large lake and surrounded by towering, snowy mountains. </p>
+
+<p>We checked into our hotel and then wandered around like tourists, eating a wonderful dinner. </p>
+
+<p>This is a quaint bar just down the hill from our hosteleria in Bariloche.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-21-carlos-23-28-02_149lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-21-carlos-23-28-19_631lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-21-carlos-23-33-09_342lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="llaollao">Tues, Oct 22 - Walk around Llao Llao</h2>
+
+<p>We took a long walk to the bus station to buy tickets to Chile. Then we took a city bus to the end of the line so that we could walk in the fog and drizzle around Llao Llao, a hill on a couple of lakes. </p>
+
+<p>Hiked to top of Llao Llao in occasional light drizzle. It was too cloudy to see snowy peaks or much color. </p>
+
+<p>On the way back, we sat by a lake for lunch and maté. As we sat there, some hikers called George&#8217;s name. It was Gina and Toby, Australians that George had sat next to on the plane! We talked and decided to meet for dinner </p>
+
+<p>We walked back and had to run to catch the bus back to town!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_21_0555lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_22_0587lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_22_0594lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_22_0597lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_22_0602lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0345lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p>All four of us had a nice dinner where we decided to go to Catedral together tomorrow in Toby&#8217;s car. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="frey">Weds, Oct 23 - Hike to Refugio Frey</h2>
+
+<p>It was a long hike, about 8 hours with a stay of an hour or so at the refuge itself. </p>
+
+<p>The trail led along a lake and then turned right into a canyon that led to the refuge.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0606lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0611lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0613lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0620lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0627lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0632lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0639lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0643lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0647lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0653lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0657lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0659lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0668lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0670lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0671lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0672lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0678lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0681lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0683lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0688lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0694lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0700lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0703lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0751lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p>At the refuge, Luciana Melo, a 34-year old Brazilian, who had walked up alone, asked if she could walk back down with us.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_23_0705lo-res.jpg" alt="Bariloche, Argentina" /></p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0356lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0357lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0372lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-23-carlos-12-24-39_751lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-23-carlos-16-38-31_690lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p>After our long hike down, Luciana went back to her hotel in the ski village. David and George had dinner with Toby and Gina. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="cerrocampanario">Thurs, Oct 24 - Bariloche and <em>Cerro Campanario</em></h2>
+
+<p>David and George walked to the Chilean embassy, where we found out that we didn&#8217;t need visas to cross over into Chile. </p>
+
+<p>Then we took the city bus to <em>Cerro Campanario</em>, which has a ski lift and a beautiful 360-degree view. We hiked to the top (and took the lift down).</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0374lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/iPad_photo_0375lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p>At the top, we spent a lot of time looking at the incomprable view. We were joined by Brian Wright, Canadian violinist who works in London. We ate lunch together in a beautiful round restaurant with an amazing view.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-24-carlos-13-05-37_80lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013-10-24-carlos-13-20-03_179lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0709lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0710lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0711lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0726lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0732lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0733lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0735lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p>We took the city bus to the intercity bus station in Bariloche to buy tickets to Osorno, Chile. Then we took the long walk back to the part of town near our hotel. We ate dinner and then went back to the hotel for the night. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="elbolon">Fri, Oct 25 - El Bol&oacute;n and Lago Puelo</h2>
+
+<p>We rented a car belonging to Mariana, the owner of our hosteleria, and drove to El Bol&oacute;n and Lago Puelo which was a few kilometers past it. Walked around a bit at the late, then drove back to El Bol&oacute;n for lunch. </p>
+
+<p>We drove back and then spent the rest of the day doing errands before having dinner in the Juaja restaurant with Toby and Gina. Then we went to bed for our last night in Bariloche.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0778lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_24_0785lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_25_0792lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_25_0803lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_25_0807lo-res.jpg" alt="Bariloche, Argentina" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/3_argentina/2_bariloche/2013_10_25_0813lo-res.jpg" alt="Bariloche, Argentina" /> </p>
+
+<p><a href="#top">top</a></p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>

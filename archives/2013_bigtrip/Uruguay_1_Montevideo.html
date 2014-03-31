@@ -1,0 +1,504 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Uruguay_1_Montevideo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+
+	ge: began with: /Users/ge/Library/Application Support/Marked/Custom CSS/Custom Example.css
+
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+	font: normal 1em/2.5em "Courier", monospace;
+    margin:0
+}
+
+html>body
+{
+    /* font-size:13px */
+	font: normal 1em/2.5em "Courier", monospace;
+    font-size: 12pt;
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0;
+    font-weight:200;
+	font-style:italic;
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    /* font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; */
+	font-family: "Courier", monospace;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:80%;
+    height:auto
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    /* font-family:Georgia, Garamond, serif!important; */
+	font-family: "Courier", monospace;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    /* font-family:Georgia, Garamond, serif!important */
+	font-family: "Courier", monospace;
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+p {
+	color: #111;
+    font-weight:900;
+}
+
+</style>
+
+</head>
+<body class="normal poetry firstload">
+  <div id="wrapper">
+      <p><a id="top"></a><br/>
+<a href="Index.html">Home</a>|<a href="Uruguay.html">Uruguay Map</a>|<a href="Uruguay_1_Montevideo.html">Montevideo</a>|<a href="Uruguay_2_Colonia.html">Colonia</a></p>
+
+
+<ul style="display: block;" id="mkreplaced-toc" class="max-6"><li class="missing"><ul><li class="notmissing"><a href="#montevidwo" class="wiki-link">Montevideo</a><ul><li class="notmissing"><a href="#tues" class="wiki-link">Tues Oct 15</a></li><li class="notmissing"><a href="#weds" class="wiki-link">Weds, Oct 16</a></li></ul></li><li class="notmissing"><a href="#2colonia" class="wiki-link">Montevideo to Colonia (Thurs, Oct 17)</a><ul><li class="notmissing"><a href="#btrip" class="wiki-link">Bus Trip</a></li></ul></li></ul></li></ul>
+
+
+
+<h2 id="montevidwo">Montevideo</h2>
+
+<h3 id="tues">Tues Oct 15</h3>
+
+<p>We arrived in Montevideo fairly early in the morning and took a bus to the <a href="http://www.esplendormontevideo.com/">Hotel Esplendor</a>, an upscale hotel in a business district where there were few residences. </p>
+
+<p>The hotel had very poor Wi-Fi: we had to go to one part of the lobby or breakfast room to connect. </p>
+
+<figure>
+<img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/hotel_esplendor.jpg" alt="Hotel Esplendor" />
+<figcaption>Hotel Esplendor</figcaption></figure>
+
+<p>The top floor, which had a very nice view, was used for public events like breakfast. Letting all hotel patrons use the top floor is like having laws that don't allow building between the ocean and the first public road, so that everyone could enjoy access to water. </p>
+
+<p>Montevideo was a very nice city, relatively clean and bright, buildings not too tall. It had an amazing bookstore, reminiscent of the now-defunct Scribner's bookstore in New York City.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_15_0019lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>We took a long bus tour, which was not very enjoyable but which did give us a reasonable overview of the city.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_15_0104lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_15_0143lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>We hung out in the lobby for awhile using their Wi-Fi, which didn't work in the rooms. George practiced his French with a dancer from a Belgian dance company that was sitting in a circle. Then we walked a few blocks to a main street, where we found <em>Il Mondo della Pizza</em>, a pizza place with a large area set back from the sidewalk, where people could sit in the outside air to drink beer and eat pizza and watch Uruguay play Argentina. It was a very exciting match. We watched the whole thing, enjoying cheering with the crowd as Uruguay won. It was a one-pizza, three-bottle night of fun. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h3 id="weds">Weds, Oct 16</h3>
+
+<p>We had breakfast in the wonderful top floor restaurant, which had a view of the city and the <em>Rio de la Plata</em>, which separates Uruguay from Argentina and looks like an ocean. It reminded George of the beautiful hotel in Sfax, Tunisia, where he and Iris stayed a few years ago. </p>
+
+<p>George spoke with another dancer, who he ran into in the stairs to the restaurant. It turned out that the company, [Peeping Tom}(http://www.peepingtom.be) were going to perform that evening in the <em>Theatro Solis</em>, a beautiful old theater just off the main square in Montevideo. So we bought tickets during the day. </p>
+
+<p>We walked to the port to buy tickets to Buenos Aires on the Buquebus (hydroplane). We wandered around the port area, visiting a Carnaval museum that contained this weird piece.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0157lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>We walked into a large public market and discovered that there were restaurant tables scattered among the food vendors, a pattern that we found on the rest of our trip. It makes for lively and fun places to eat.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0154lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0155lo-res.jpg" alt="Montevideo, Uruguay" /></p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013-10-16-carlos-13-54-00_68lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0159lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>The ice bucket for our beer was a classy touch.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0162lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0163lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0164lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0165lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>Having hightly approved of the food, David soon found himself with a new job!</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0170lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0171lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0174lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0176lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>We walked along Montevideo's beautiful river coast.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0180lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0186lo-res.jpg" alt="Montevideo, Uruguay" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/2_uruguay/1_montevideo/2013_10_16_0197lo-res.jpg" alt="Montevideo, Uruguay" /> </p>
+
+<p>This was our last evening in Montevideo, so we went to the <em>Teatro Solis</em> to see <em>Peeping Tom</em> perform <a href="http://www.peepingtom.be/en/productions/2">32 Rue Vandenbranden</a>, a deeply wierd dance piece worthy of the American Dance Festival. Then we had dinner in our favorite pizza place, only this time inside. </p>
+
+<p><a href="#top">top</a> </p>
+
+<h2 id="2colonia">Montevideo to Colonia (Thurs, Oct 17)</h2>
+
+<h3 id="btrip">Bus Trip</h3>
+
+<p>We started the morning with an early breakfast in our hotel. As George walked out of the breakfast room, he ran into the older woman dancer, the one with the wild hair who sang during the performance. David came out shortly thereafter. George told her (in French) how much they had liked the dance. She said that it had been very hard to stage the performance (the logistics were daunting) and said that there had been mistakes. She said that she had pounded on the secret door (in the set) and was relieved that we hadn't noticed that she had broken it! The company is based on improvisation and is not choreographed by any one person. </p>
+
+<p>We went to a hardware store where David bought a good metal thermos for his chimarr&atilde;o; this replaced the cheap, red plastic thermos he had bought in Brazil. </p>
+
+<p>We took a city bus to the bus station, where we took the bus to Colonia. </p>
+
+<p>We passed through flat agricultural country, sighting one huge wind generator. It was fascinating. </p>
+
+<p><a href="#top">top</a></p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>

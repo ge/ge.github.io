@@ -1,0 +1,552 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Brazil_3_Florianopolis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+/* 
+   This document has been created with Marked.app <http://markedapp.com>, Copyright 2011 Brett Terpstra
+   Please leave this notice in place, along with any additional credits below.
+   ---------------------------------------------------------------
+   Title: Theme title
+   Author: Your name and optional url
+   Description: Basic description of the theme.
+
+	ge: began with: /Users/ge/Library/Application Support/Marked/Custom CSS/Custom Example.css
+
+*/
+
+body
+{
+    -webkit-font-smoothing:antialiased;
+	font: normal 1em/2.5em "Courier", monospace;
+    margin:0
+}
+
+html>body
+{
+    /* font-size:13px */
+	font: normal 1em/2.5em "Courier", monospace;
+    font-size: 12pt;
+}
+
+li
+{
+    font-size:110%
+}
+
+li li
+{
+    font-size:100%
+}
+
+li p
+{
+    font-size:100%;
+    margin:.5em 0
+}
+
+h1
+{
+    color:#000;
+    font-size:2.2857em;
+    line-height:.6563em;
+    margin:.6563em 0
+}
+
+h2
+{
+    color:#111;
+    font-size:1.7143em;
+    line-height:.875em;
+    margin:.875em 0
+}
+
+h3
+{
+    color:#111;
+    font-size:1.5em;
+    line-height:1em;
+    margin:1em 0
+}
+
+h4
+{
+    color:#111;
+    font-size:1.2857em;
+    line-height:1.1667em;
+    margin:1.1667em 0
+}
+
+h5
+{
+    color:#111;
+    font-size:1.15em;
+    line-height:1.3em;
+    margin:1.3em 0;
+    font-weight:200;
+	font-style:italic;
+}
+
+h6
+{
+    font-size:1em;
+    line-height:1.5em;
+    margin:1.5em 0
+}
+
+body,p,td,div
+{
+    color:#111;
+    /* font-family:"Helvetica Neue", Helvetica, Arial, Verdana, sans-serif; */
+	font-family: "Courier", monospace;
+    word-wrap:break-word
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    line-height:1.5em
+}
+
+a
+{
+    -webkit-transition:color .2s ease-in-out;
+    color:#0d6ea1;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#3593d9
+}
+
+/*h2 em
+{
+    color:#111;
+    padding-left:10px;
+    text-shadow:0 1px 0 #FFF
+}*/
+
+blockquote p
+{
+  font-size:110%;
+  font-style:italic;
+  line-height:1.6em;
+}
+
+.footnote
+{
+    color:#0d6ea1;
+    font-size:.8em;
+    vertical-align:super
+}
+
+#wrapper img
+{
+    max-width:80%;
+    height:auto
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%
+}
+
+dd
+{
+    margin-bottom:1em
+}
+
+li > p:first-child
+{
+    margin:0
+}
+
+ul ul,ul ol
+{
+    margin-bottom:.4em
+}
+
+caption,col,colgroup,table,tbody,td,tfoot,th,thead,tr
+{
+    border-spacing:0
+}
+
+table
+{
+    border:1px solid rgba(0,0,0,0.25);
+    border-collapse:collapse;
+    display:table;
+    empty-cells:hide;
+    margin:-1px 0 23px;
+    padding:0;
+    table-layout:fixed
+}
+
+caption
+{
+    display:table-caption;
+    font-weight:700
+}
+
+col
+{
+    display:table-column
+}
+
+colgroup
+{
+    display:table-column-group
+}
+
+tbody
+{
+    display:table-row-group
+}
+
+tfoot
+{
+    display:table-footer-group
+}
+
+thead
+{
+    display:table-header-group
+}
+
+td,th
+{
+    display:table-cell
+}
+
+tr
+{
+    display:table-row
+}
+
+table th,table td
+{
+    font-size:1.1em;
+    line-height:23px;
+    padding:0 1em
+}
+
+table thead
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-bottom:1px solid rgba(0,0,0,0.2)
+}
+
+table tbody
+{
+    background:rgba(0,0,0,0.05)
+}
+
+table tfoot
+{
+    background:rgba(0,0,0,0.15);
+    border:1px solid rgba(0,0,0,0.15);
+    border-top:1px solid rgba(0,0,0,0.2)
+}
+
+figure
+{
+    display:inline-block;
+    margin-bottom:1.2em;
+    position:relative;
+    margin:1em 0
+}
+
+figcaption
+{
+    font-style:italic;    
+    text-align:center;
+    background:rgba(0,0,0,.9);
+    color:rgba(255,255,255,1);
+    position:absolute;
+    left:0;
+    bottom:-24px;
+    width:98%;
+    padding:1%;
+    -webkit-transition:all .2s ease-in-out;
+}
+
+figure:hover>figcaption
+{
+    /* background:rgba(0,0,0,1) */
+}
+
+/* Styles used when "Tab-indented text is poetry" is set */
+.poetry pre
+{
+    display:block;
+    /* font-family:Georgia, Garamond, serif!important; */
+	font-family: "Courier", monospace;
+    font-size:110%!important;
+    font-style:italic;
+    line-height:1.6em;
+    margin-left:1em
+}
+
+.poetry pre code
+{
+    /* font-family:Georgia, Garamond, serif!important */
+	font-family: "Courier", monospace;
+}
+
+/* important rules for keeping line-height from being affected by sub */
+sup,sub,a.footnote
+{
+    font-size:1.4ex;
+    height:0;
+    line-height:1;
+    position:relative;
+}
+
+sup {
+    vertical-align:super;
+}
+
+sub {
+    vertical-align: sub;
+    top: -1px;
+}
+
+p,h5
+{
+    font-size:1.1429em;
+    line-height:1.3125em;
+    margin:1.3125em 0
+}
+
+dt,th
+{
+    font-weight:700
+}
+
+table tr:nth-child(odd),table th:nth-child(odd),table td:nth-child(odd)
+{
+    background:rgba(255,255,255,0.06)
+}
+
+table tr:nth-child(even),table td:nth-child(even)
+{
+    background:rgba(0,0,0,0.06)
+}
+
+@media print {
+    /* print only styles. Keep it clean */
+    body
+    {
+        overflow:auto
+    }
+    img, pre, blockquote, table, figure, p {
+        page-break-inside: avoid
+    }
+    .footnotes { page-break-before: always }
+
+    #wrapper
+    {
+        background:#fff;
+        color:#303030;
+        font-size:85%;
+        padding:10px;
+        position:relative;
+        text-indent:0
+    }
+}
+
+@media screen {
+    /* Screen-only styles, including inverted styles */
+    .inverted #wrapper,.inverted {
+        background:rgba(37, 42, 42, 1)
+    }
+    .inverted hr {
+        border-color: rgba(51, 63, 64, 1) !important;
+    }
+    .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted pre,.inverted code,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt
+    {
+        color:#eee!important
+    }
+    .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+      background: none;
+    }
+    .inverted a
+    {
+        color:rgba(172, 209, 213, 1);
+    }
+
+    #wrapper
+    {
+        padding:20px
+    }
+
+    /* styles for more colorful selection highlights */
+    ::selection { background:rgba(157, 193, 200,.5)}
+    h1::selection { background-color:rgba(45, 156, 208, .3)}
+    h2::selection { background-color:rgba(90, 182, 224, .3)}
+    h3::selection,
+    h4::selection,
+    h5::selection,
+    h6::selection,li::selection,ol::selection { background-color:rgba(133, 201, 232, .3)}
+    code::selection { background-color:rgba(0,0,0,.7);color:#eee}
+    code span::selection {background-color:rgba(0,0,0,.7) !important;color:#eee !important}
+    a::selection { background-color:rgba(255, 230, 102,.2)}
+    .inverted a::selection { background-color:rgba(255, 230, 102,.6)}
+	td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+p {
+	color: #111;
+    font-weight:900;
+}
+
+</style>
+
+</head>
+<body class="normal poetry firstload">
+  <div id="wrapper">
+      <p><a href="Index.html">Home</a>|<a href="Brazil.html">Brazil Map</a>|<a href="Brazil_1_Indaiatuba.html">Indaiatuba</a>|<a href="Brazil_2_Rio_de_Janeiro.html">Rio de Janeiro</a>|<a href="Brazil_3_Florianopolis.html">Florian&oacute;polis</a>|<a href="Brazil_4_Porto_Alegre.html">Porto Alegre</a>
+<a id="top"></a></p>
+
+
+<ul style="display: block;" id="mkreplaced-toc" class="max-6"><li class="notmissing"><a href="#flori" class="wiki-link">Florianópolis</a><ul><li class="notmissing"><a href="#trip" class="wiki-link">Tuesday Oct 8 - Rio to Florianópolis</a></li><li class="notmissing"><a href="#factory" class="wiki-link">Weds Oct 9 - Florianópolis - Usare</a></li><li class="notmissing"><a href="#byeristoffs" class="wiki-link">Thurs Oct 10 - Florianópolis - last full day with the Ristoffs</a></li><li class="notmissing"><a href="#jose" class="wiki-link">Friday Oct 11 - Florianópolis - José Roberto O'Shea</a></li><li class="notmissing"><a href="#dalton" class="wiki-link">Friday Oct 11 - Florianópolis - Dalton and Janete's Apartment</a></li></ul></li></ul>
+
+
+
+<h1 id="flori">Florian&oacute;polis</h1>
+
+<h2 id="trip">Tuesday Oct 8 - Rio to Florian&oacute;polis <a id="florianapolis_dilvo"></a></h2>
+
+<p>Up at 5am. Taxi arrived a little before 6. </p>
+
+<p>Long good-bye at door with Jacira, Simone and Rejane (Z&eacute; wisely slept in). It was so sad to leave them. </p>
+
+<p>Quick trip to airport. The plane left at 7:55 am for Florian&oacute;polis. </p>
+
+<p>Airport workers were on strike, and there was a huge mess at the baggage claim where Dilvo Ristoff was waiting with another friend who he'd seen. </p>
+
+<p>Dilvo took his friend to a very fancy hotel. Then he picked up an old alcohol-driven car parked at their apartment in town. George rode with Dilvo while David followed in his newer car. </p>
+
+<p>We arrived at the Ristoff's beautiful beach condominium and had a quick lunch of cheese and sausage heated over sterno-like cans. </p>
+
+<p>David and George took a long walk on the beach. </p>
+
+<p>Maria arrived with Clarissa and Luiz's two beautiful children. </p>
+
+<p>George played on the iPad with Nicolas. </p>
+
+<p>Clarissa and Luiz arrived. </p>
+
+<p>We all had an amazing dinner. </p>
+
+<p>After Clarissa and Luiz left, we watched soccer and volleyball before taking showers and going to sleep.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_08_9757lo-res.jpg" alt="Florianpolis, Brasil" /> </p>
+
+<h2 id="factory">Weds Oct 9 - Florian&oacute;polis - Usare</h2>
+
+<p>George got up early and went out on the roof to sit in the sun - Dilvo and Maria's apartment is on the top floor, providing a beautiful view of the Atlantic. </p>
+
+<p>Breakfast had more food than we needed but we couldn't stop eating, it was so good! </p>
+
+<p>We all got ready to visit Clarissa and Luiz's factory where they produce a large line of hollow plastic artifacts such as toys, lamps, souvenirs, etc. Check <a href="https://s3.amazonaws.com/zabouti_000/http://www.usare.com.br/Produtos/Linha-Funny/Funny/Lumin%C3%A1rias.aspx">their web site to see</a>. </p>
+
+<p>It was a fairly long drive. First, we swung by their house to pick up Clarissa - actually to follow her car to the factory. The factory was composed of at least two buildings plus a rented warehouse set amidst numerous other similar buildings. They have about 40 employees. </p>
+
+<p>The plastic objects that they make are all hollow. They are created by injecting molten plastic into molds that are moved and shaken in 3 dimensions so that the plastic covers the inside of the mold evenly. The process obviously has to begin with the molds - which are metal - in a very hot state. As the molds are moved about, they are gradually cooled until they can be opened and the objects removed. </p>
+
+<p>What's neat is that Luiz figured out how to make the large, unwieldy-looking frames that hold a number of molds and move them all around inside large, heated corrugated metal enclosures. This saved them a lot of money although they still pay another company to produce the metal molds themselves from their designs. </p>
+
+<p>Each plastic object requires someone to trim the extra plastic that sticks out where the edges of the mold meet. They also smooth down rough spots, etc. </p>
+
+<p>The company is owned by three partners: Clarissa, Luiz and Gabriel, Luiz's brother. They get orders at big commercial fairs in S&atilde;o Paulo. </p>
+
+<p>It was inspiring to see these young people taking an idea and making it work so well. They once tried to go upscale, but quickly learned that the money is with many, inexpensive objects. </p>
+
+<p>After we finished touring the factory, we went to Florian&oacute;polis's oldest but still upscale mall for lunch. They had a buffet lunch with <em>vegetables</em>! George's meal, which was delicious and healthy, cost a bit less than $7: very nice. </p>
+
+<p>After lunch Maria went shopping for an Xbox for Nicolas. It was fun watching her and Dilvo dancing to an XBox in front of the store window. This is a family with a wonderful sense of fun. </p>
+
+<p>Dilvo took David and George to visit a beautiful beach before going back to the apartment, where David and George took a walk on the beach and found a large dead sea turtle, a dead penguin and two dead puffer fish.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_08_9778lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_08_9791lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9793lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9801lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9809lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9814lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9818lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_09_9820lo-res.jpg" alt="Florianpolis, Brasil" /> </p>
+
+<h2 id="byeristoffs">Thurs Oct 10 - Florian&oacute;polis - last full day with the Ristoffs</h2>
+
+<p>Today we picked up Clarissa and went to a wonderful seafood restaurant with a beautiful view. We love <em>bob&oacute; de camar&atilde;o</em>! </p>
+
+<p>We bought our bus tickets to Porto Alegre. We'll figure out how to get a bus to Montevideo once we're in Porto Alegre. </p>
+
+<p>David and George both took naps and didn't walk on the beach: a lazy day. </p>
+
+<p>To relieve some of our numerous money woes, David tried to call <em>CapitolOne</em> collect, but didn't know how to get an operator. The wording on the credit card makes it sound so easy, but it is not. After lots of Googling and trying various numbers David got through to an ATT operator and found that <em>CapitolOne</em> had rejected the bus ticket purchase. Such fun! </p>
+
+<figure>
+<img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/photo_by_dilvo.jpg" alt="Photo by Dilvo" />
+<figcaption>Photo by Dilvo</figcaption></figure>
+
+<p>We had Brazilian crepes for dinner. They were very good, but quite different from French cr&ecirc;pes. </p>
+
+<p>We said good-bye to Luiz and Clarissa and their wonderful children.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_10_9836lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_10_9847lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_10_9849lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_10_9851lo-res.jpg" alt="Florianpolis, Brasil" /> </p>
+
+<h2 id="jose">Friday Oct 11 - Florian&oacute;polis - Jos&eacute; Roberto O'Shea</h2>
+
+<p>We bought tickets from Florian&oacute;polis to Porto Alegre. </p>
+
+<p>George lost his ticket, so Dilvo had to take us back to the bus station to buy another one. </p>
+
+<p>Dilvo took us to the apartment of Jos&eacute; Roberto O'Shea, a mutual friend who we all knew. </p>
+
+<p>We drove to the Lagoa, where we found a very nice seafood restaurant. We sat upstairs and shared a delicious <em>muquequa de camar&atilde;o</em>. </p>
+
+<p>We drove to <em>Praia de Melo</em>, where Jos&eacute; made a call and we went to the house of Maria Helena, a former student who lived in a beautiful house within short walking distance of the seaside. </p>
+
+<p>We walked down to the beach, watching out for snakes. </p>
+
+<p>Maria Helena then showed us her tiny rental cottage, which David seemed very interested in renting with Heidi (don't tell her about the snakes). </p>
+
+<p>We drove Jos&eacute; back to his apartment and said good-bye.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9861lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9865lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9866lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9869lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9870lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9876lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9885lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9891lo-res.jpg" alt="Florianpolis, Brasil" /> </p>
+
+<p>Dilvo then drove us to Dalton's amazing apartment and we said good-bye. </p>
+
+<h2 id="dalton">Friday Oct 11 - Florian&oacute;polis - Dalton and Janete's Apartment</h2>
+
+<p>Dalton and Janete have an amazing two-floor apartment high up in a tall building in Florian&oacute;polis. </p>
+
+<p>After showering, we went upstairs to the dining level. Dalton and Janete's son Fernando and his wife Sharom soon arrived, followed by a number of their friends, almost all couples with young children. Everyone looked young, healthy and intelligent - they were very impressive.</p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013_10_11_9905lo-res.jpg" alt="Florianpolis, Brasil" /></p>
+
+<p><br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013-10-10-carlos-19-41-35_527lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/2013-10-11-carlos-07-45-44_884lo-res.jpg" alt="Florianpolis, Brasil" />
+<br /><img src="https://s3.amazonaws.com/zabouti_000/1_brasil/3_florianpolis/ge_with_dog.jpg" alt="florianpolis, brasil" /> </p>
+
+<p><a href="#top">top</a></p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>
