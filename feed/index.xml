@@ -4,13 +4,66 @@
 	<title type="text" xml:lang="en"></title>
 	<link type="application/atom+xml" href="http://ge.github.io/feed/" rel="self"/>
  	<link type="text" href="http://ge.github.io" rel="alternate"/>
-	<updated>2014-04-01T20:01:57-04:00</updated>
+	<updated>2014-04-06T11:12:36-04:00</updated>
 	<id>http://ge.github.io</id>
 	<author>
 		<name>George Entenman</name>
 	</author>
 	<rights>Copyright (c) 2005-2014, George Entenman; all rights reserved.</rights>
 	
+	
+	<entry>
+		<title>I finally went to Clydefest</title>
+		<link href="http://ge.github.io/social/2014-04-06-i-finally-went-to-clydefest.html"/>
+		<updated>2014-04-06T10:14:17Z</updated>
+		<id>http://ge.github.io/social/i-finally-went-to-clydefest</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/17_2014_04_05_Clydefest_sign.jpg&quot; alt=&quot;Sign at Clyde&amp;#39;s house&quot;&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;I finally went to Clydefest&lt;/h2&gt;
+
+&lt;h3&gt;The Guardian ad Litem information table with Tatia Ash&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;ve wanted to go ever since I met Clyde Jones, a man who has transformed the little mill town of Bynum, NC, where he lives.  He has done this with his generosity and his art.&lt;/p&gt;
+
+&lt;p&gt;A second reason for going to Clydefest was to help out at the &lt;strong&gt;Guardian ad Litem&lt;/strong&gt; table with my supervisor, Tatia Ash.  This was an opportunity to get to know Tatia better and to discover mutual friends and interests.  After five weeks of being trained by her, I already knew that Tatia was an unusual and amazing person, but I didn&amp;#39;t expect to be quite as surprised as I was.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/01_2014_04_05_Clydefest_GAL_table.jpg&quot; alt=&quot;GAL Table&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The crowd seemed fairly small.  I don&amp;#39;t think that the publicity was done very well.  In spite of that we spoke with a good number of people and got several of the to sign up for possible volunteer work as a &lt;strong&gt;GAL&lt;/strong&gt;.  (Yes, I&amp;#39;m now a &lt;strong&gt;GAL&lt;/strong&gt;!).&lt;/p&gt;
+
+&lt;p&gt;I especially enjoyed talking with John, a west-coast artist who now lives in the area.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/04_2014_04_05_Clydefest_John.jpg&quot; alt=&quot;John&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;My Clydefest tattoo&lt;/h3&gt;
+
+&lt;p&gt;I got my first Clydefest tattoo several years ago at the Fearrington Folk Art show, where Clyde gave me one of his last tattoos, a beautiful watermellon. I tried so hard not to wash my arm!&lt;/p&gt;
+
+&lt;p&gt;So, after Tatia and I were relieved by Day and Nicole at 1pm, I wandered around until I found Clyde, sitting on his garden tractor, gently putting tattoos on the arms of children.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/05_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I also found Julie, RPCV Mali, with her daughter and mother.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/10_2014_04_05_Clydefest_Julie.jpg&quot; alt=&quot;XXXX&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Julie, who is considerably less shy than I am, encouraged me to get my own tattoo during a lull when no children were lined up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/07_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Short walk around Bynum&lt;/h3&gt;
+
+&lt;p&gt;When I left the ballpark, I took a short walk by Clyde&amp;#39;s house, down to the mill area and then back up to my truck.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/15_2014_04_05_Clydefest_house.jpg&quot; alt=&quot;Clyde&amp;#39;s house&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The whole town has Clyde&amp;#39;s art in their yards.  He has given it to them.  It transforms the town.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/20_2014_04_05_Clydefest_lawn.jpg&quot; alt=&quot;Beautiful House&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>An Important Lesson in College</title>
@@ -1066,8 +1119,54 @@ $ git push -u origin
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- _This page will probably remain a work-in-progress for some time._
+        --- ![Sign at Clyde&amp;#39;s house](/assets/2014Clydefest/17_2014_04_05_Clydefest_sign.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;h2&gt;I finally went to Clydefest&lt;/h2&gt;
+
+&lt;h3&gt;The Guardian ad Litem information table with Tatia Ash&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;ve wanted to go ever since I met Clyde Jones, a man who has transformed the little mill town of Bynum, NC, where he lives.  He has done this with his generosity and his art.&lt;/p&gt;
+
+&lt;p&gt;A second reason for going to Clydefest was to help out at the &lt;strong&gt;Guardian ad Litem&lt;/strong&gt; table with my supervisor, Tatia Ash.  This was an opportunity to get to know Tatia better and to discover mutual friends and interests.  After five weeks of being trained by her, I already knew that Tatia was an unusual and amazing person, but I didn&amp;#39;t expect to be quite as surprised as I was.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/01_2014_04_05_Clydefest_GAL_table.jpg&quot; alt=&quot;GAL Table&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The crowd seemed fairly small.  I don&amp;#39;t think that the publicity was done very well.  In spite of that we spoke with a good number of people and got several of the to sign up for possible volunteer work as a &lt;strong&gt;GAL&lt;/strong&gt;.  (Yes, I&amp;#39;m now a &lt;strong&gt;GAL&lt;/strong&gt;!).&lt;/p&gt;
+
+&lt;p&gt;I especially enjoyed talking with John, a west-coast artist who now lives in the area.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/04_2014_04_05_Clydefest_John.jpg&quot; alt=&quot;John&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;My Clydefest tattoo&lt;/h3&gt;
+
+&lt;p&gt;I got my first Clydefest tattoo several years ago at the Fearrington Folk Art show, where Clyde gave me one of his last tattoos, a beautiful watermellon. I tried so hard not to wash my arm!&lt;/p&gt;
+
+&lt;p&gt;So, after Tatia and I were relieved by Day and Nicole at 1pm, I wandered around until I found Clyde, sitting on his garden tractor, gently putting tattoos on the arms of children.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/05_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I also found Julie, RPCV Mali, with her daughter and mother.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/10_2014_04_05_Clydefest_Julie.jpg&quot; alt=&quot;XXXX&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Julie, who is considerably less shy than I am, encouraged me to get my own tattoo during a lull when no children were lined up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/07_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Short walk around Bynum&lt;/h3&gt;
+
+&lt;p&gt;When I left the ballpark, I took a short walk by Clyde&amp;#39;s house, down to the mill area and then back up to my truck.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/15_2014_04_05_Clydefest_house.jpg&quot; alt=&quot;Clyde&amp;#39;s house&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The whole town has Clyde&amp;#39;s art in their yards.  He has given it to them.  It transforms the town.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/20_2014_04_05_Clydefest_lawn.jpg&quot; alt=&quot;Beautiful House&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This page will probably remain a work-in-progress for some time.&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Last week (March 26th, I believe) I noticed on a Duke University calendar that a young Tunisian blogger had started talking about 30 minutes &lt;strong&gt;before&lt;/strong&gt; I looked at the calendar!  A phone call to Duke got me an email with a link that allowed me to use my computer to watch the event, which went on for a couple of hours.  Olfa spoke in very good French while a translator summarized for some of the people in the audience.&lt;/p&gt;
 
 &lt;p&gt;While she talked, I managed to discover her trances on &lt;a href=&quot;https://twitter.com/Olfa_Riahi&quot;&gt;twitter&lt;/a&gt; and send her a message.  I was delighted a few hours later to get a phone call from her.  We arranged for her and her South African colleague &lt;a href=&quot;https://www.facebook.com/xoli.moloi.3&quot;&gt;Xoli Molloi&lt;/a&gt; to visit on Saturday.&lt;/p&gt;
@@ -2431,8 +2530,54 @@ Iris.  Some of the services will probably require extensive periods of time.&lt;
 
     &amp;lt;li&amp;gt;
         &amp;lt;div&amp;gt;
-        --- &amp;lt;!-- EXCERPT HERE --&amp;gt;
+        --- ![Sign at Clyde&amp;#39;s house](/assets/2014Clydefest/17_2014_04_05_Clydefest_sign.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;h2&gt;I finally went to Clydefest&lt;/h2&gt;
+
+&lt;h3&gt;The Guardian ad Litem information table with Tatia Ash&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;ve wanted to go ever since I met Clyde Jones, a man who has transformed the little mill town of Bynum, NC, where he lives.  He has done this with his generosity and his art.&lt;/p&gt;
+
+&lt;p&gt;A second reason for going to Clydefest was to help out at the &lt;strong&gt;Guardian ad Litem&lt;/strong&gt; table with my supervisor, Tatia Ash.  This was an opportunity to get to know Tatia better and to discover mutual friends and interests.  After five weeks of being trained by her, I already knew that Tatia was an unusual and amazing person, but I didn&amp;#39;t expect to be quite as surprised as I was.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/01_2014_04_05_Clydefest_GAL_table.jpg&quot; alt=&quot;GAL Table&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The crowd seemed fairly small.  I don&amp;#39;t think that the publicity was done very well.  In spite of that we spoke with a good number of people and got several of the to sign up for possible volunteer work as a &lt;strong&gt;GAL&lt;/strong&gt;.  (Yes, I&amp;#39;m now a &lt;strong&gt;GAL&lt;/strong&gt;!).&lt;/p&gt;
+
+&lt;p&gt;I especially enjoyed talking with John, a west-coast artist who now lives in the area.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/04_2014_04_05_Clydefest_John.jpg&quot; alt=&quot;John&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;My Clydefest tattoo&lt;/h3&gt;
+
+&lt;p&gt;I got my first Clydefest tattoo several years ago at the Fearrington Folk Art show, where Clyde gave me one of his last tattoos, a beautiful watermellon. I tried so hard not to wash my arm!&lt;/p&gt;
+
+&lt;p&gt;So, after Tatia and I were relieved by Day and Nicole at 1pm, I wandered around until I found Clyde, sitting on his garden tractor, gently putting tattoos on the arms of children.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/05_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I also found Julie, RPCV Mali, with her daughter and mother.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/10_2014_04_05_Clydefest_Julie.jpg&quot; alt=&quot;XXXX&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Julie, who is considerably less shy than I am, encouraged me to get my own tattoo during a lull when no children were lined up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/07_2014_04_05_Clydefest_tattoos.jpg&quot; alt=&quot;Tattoos&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Short walk around Bynum&lt;/h3&gt;
+
+&lt;p&gt;When I left the ballpark, I took a short walk by Clyde&amp;#39;s house, down to the mill area and then back up to my truck.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/15_2014_04_05_Clydefest_house.jpg&quot; alt=&quot;Clyde&amp;#39;s house&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The whole town has Clyde&amp;#39;s art in their yards.  He has given it to them.  It transforms the town.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/2014Clydefest/20_2014_04_05_Clydefest_lawn.jpg&quot; alt=&quot;Beautiful House&quot;&gt;&lt;/p&gt;
+
+&lt;!-- EXCERPT HERE --&gt;
+
 &lt;!--more--&gt;
 
 &lt;h2&gt;Highest-Level Header in this file.&lt;/h2&gt;
@@ -4920,7 +5065,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 2 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 3 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -5368,7 +5513,7 @@ george.entenman.name.   3600    IN      CNAME   ge.github.io.
             &amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-            &amp;lt;br /&amp;gt;post[1].size: [ 8 ],
+            &amp;lt;br /&amp;gt;post[1].size: [ 9 ],
             &amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
             &amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
@@ -6890,52 +7035,6 @@ Le quotidien est en vacances
 Ou l&amp;#39;on trouve des trucs nouveaux
 Des jolies idées dans mon cerveau
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
-	</entry>
-	
-	<entry>
-		<title>Why I'm moving my posts from Google+ to Jekyll</title>
-		<link href="http://ge.github.io/google/2013-07-30-moving-original-posts-from-google-plus-to-jekyll.html"/>
-		<updated>2013-07-30T14:13:24Z</updated>
-		<id>http://ge.github.io/google/google-plus-is-confusing</id>
-		<content type="html">&lt;p&gt;I am trying to move my own posts away from Google+ to my own Jekyll site.&lt;/p&gt;
-
-&lt;p&gt;I may still post links to my Jekyll site on Google+, but the original posts will be mine and in &lt;em&gt;markdown&lt;/em&gt;, a format that can be saved and repurposed.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;You will notice that I&amp;#39;m posting this on a little &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; blog that I&amp;#39;m playing with.  Every post is on my own computer (and in Dropbox) where I can simply &lt;em&gt;grep&lt;/em&gt; the posts.&lt;/p&gt;
-
-&lt;p&gt;I just post the link on Google+ so that people will see the post. Google probably doesn&amp;#39;t mind.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m doing this because...&lt;/p&gt;
-
-&lt;h2&gt;Google+ is confusing&lt;/h2&gt;
-
-&lt;p&gt;When Google+ was new, I made two suggestions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have a subject for each item&lt;/li&gt;
-&lt;li&gt;Make it possible to view items as a list, with no images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I would now add a third: make it possible to create RSS feeds for my circles.  This of course would make it possible for me to see a list with no images.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#39;m reminded of this by a friend who sent me the following email a couple of days ago:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;Hey man, no idea how to get to that link you shared with my on
-Google+.  Im stopping checking or posting to any form of group
-on Google+ since its impossible to get to the stuff again and
-takes 10 minutes to find it.  Just shoot me an email to share
-it...i&amp;#39;ll definitely be able to find it and read it that way.
-Oh the future hurts
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;I couldn&amp;#39;t agree more.  &lt;strong&gt;I can&amp;#39;t even find my own posts!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2&gt;Inconsistency in Google+ notifications&lt;/h2&gt;
-
-&lt;p&gt;Today I got notifications that two people just started following me.  I clicked on the first name and looked at his profile.&lt;/p&gt;
-
-&lt;p&gt;After looking at the first profile, I went back to notifications to look at the second person.  The &lt;strong&gt;notification about new followers was gone!!&lt;/strong&gt;  Apparently Google+ knows what I want to see better than I do.&lt;/p&gt;
-</content>
 	</entry>
 	
 </feed>

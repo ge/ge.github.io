@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 DEBUG = true
-POSTSDIR = %q{/Users/ge/Dropbox/ge/george.entenman.name/_posts}
+SRCDIR = %q{/Users/ge/Dropbox/ge/george.entenman.name}
+POSTSDIR = %Q{#{SRCDIR}/_posts}
 
 unless ARGV[1]
   puts 'Usage: newpost "the post title" category {subcategory*}'
@@ -22,10 +23,14 @@ end
 	main_category = ARGV[1] || %q{TBD}
 
 	postfilename = %Q{#{postdate}-#{postname}.md}
-	postrelpathname = %Q{#{main_category}/#{postdate}-#{postname}.md}
-	postpathname = %Q{#{POSTSDIR}/#{main_category}/#{postdate}-#{postname}.md}
 
-	permalink = %Q{/#{main_category}/#{postdate}-#{postname}.html}
+	postbasesubpath = %Q{/#{main_category}/#{postdate}-#{postname}}
+	postsubpath = %Q{#{postbasesubpath}.md}
+	permalink = %Q{#{postbasesubpath}.html}
+
+	postrelpathname = %Q{_posts#{postsubpath}}
+	postfullpathname = %Q{#{SRCDIR}/#{postrelpathname}}
+
 
 initialfilecontents = <<-EOF
 ---
@@ -50,12 +55,20 @@ debug_message = <<-EOF
 
 	post title:  #{posttitle}
 
-	postfilename: #{postfilename}
+	SRCDIR: #{SRCDIR}
 	POSTSDIR: #{POSTSDIR}
-	postrelpathname: #{postrelpathname}
-	postpathname: #{postpathname}
 
-Creating post file [#{postpathname}]
+	postfilename: #{postfilename}
+
+	postbasesubpath: #{postbasesubpath}
+	postsubpath: #{postsubpath}
+	permalink: #{permalink}
+
+	postrelpathname: #{postrelpathname}
+	postfullpathname: #{postfullpathname}
+
+
+Creating post file [#{postfullpathname}]
 Contents of the file:
 #{initialfilecontents}
 EOF
@@ -63,10 +76,10 @@ EOF
 if DEBUG
 	STDERR.puts debug_message
 else
-  File.open(postpathname,'w') do |f|
+  File.open(postfullpathname,'w') do |f|
   	f.puts %Q{#{initialfilecontents}}
   end
-  STDERR.puts %Q{Have created #{postpathname}}
+  STDERR.puts %Q{Have created #{postrelpathname}}
 end
 
 
