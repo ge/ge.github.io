@@ -7,7 +7,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>I&#39;ve moved my blog to Jekyll 2.0</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -22,9 +22,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 May 2014 10:12:54 -0400</pubDate>
-        <link>/jekyll/2015-05-15-welcome-to-jekyll20.html</link>
-        <guid isPermaLink="true">/jekyll/2015-05-15-welcome-to-jekyll20.html</guid>
+        <pubDate>Fri, 16 May 2014 10:12:54 -0400</pubDate>
+        <link>/markdown/jekyll/2015-05-16-move-to-jekyll20.html</link>
+        <guid isPermaLink="true">/markdown/jekyll/2015-05-16-move-to-jekyll20.html</guid>
       </item>
     
       <item>
@@ -507,8 +507,22 @@ our Republican legislature has done to us.  But he insisted in being non-partisa
 
 &lt;pre&gt;&lt;code&gt;	&amp;lt;li&amp;gt;
 		&amp;lt;div&amp;gt;
-		--- I am trying - unsuccessfully so far - to export Scrivener documents as markdown.
+		--- You&#39;ll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes! To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;p&gt;{% highlight ruby %}
+def print_hi(name)
+  puts “Hi, #{name}”
+end
+print_hi(‘Tom’)
+#=&amp;gt; prints ‘Hi, Tom’ to STDOUT.
+{% endhighlight %}&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am trying - unsuccessfully so far - to export Scrivener documents as markdown.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -5121,7 +5135,7 @@ Points to:
 			&amp;lt;br /&amp;gt;post[1].url: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
 			&amp;lt;br /&amp;gt;post[1].permalink: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
 			&amp;lt;br /&amp;gt;post[1].date: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
-			&amp;lt;br /&amp;gt;post[1].size: [ 7 ],
+			&amp;lt;br /&amp;gt;post[1].size: [ 8 ],
 			&amp;lt;br /&amp;gt;post[1].id: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
 			&amp;lt;br /&amp;gt;post[1].categories: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
 			&amp;lt;br /&amp;gt;post[1].tags: [ [&amp;lt;strong&amp;gt;undefined&amp;lt;/strong&amp;gt;] ],
