@@ -61,7 +61,104 @@
   </header>
 
   <article class="post-content">
-  <p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
+  <p>Since I don’t know how to have two versions of Jekyll on a single computer (without using a VM, I mean), I installed <em>jekyll 2.0.3</em> on my MacBook Air.  (Up to now, I’ve written this blog on my awesome Mac Mini.)</p>
+
+<h2 id="set-up-ruby-environment-on-my-macbook-air">Set up Ruby Environment on my MacBook Air</h2>
+
+<p>I more or less followed the directions <a href="http://dean.io/setting-up-a-ruby-on-rails-development-environment-on-mavericks/">here</a>.</p>
+
+<h2 id="installing-jekyll-2x-on-my-macbook-air">Installing Jekyll 2.X on my MacBook Air</h2>
+
+<p>I more or less followed the directions <a href="http://stackoverflow.com/questions/22479246/how-to-install-jekyll-on-mac-osx-10-9-with-ruby-2-0-0">here</a>.</p>
+
+<h2 id="setting-up-the-blog-on-my-macbook-air">Setting up the blog on my MacBook Air</h2>
+
+<p>I created a completely new location for the blog since I want to stop using the jekyll theme that I have been using.  In that directory I generated a new jekyll source directory (<strong>$ jekyll new george.entenman.name</strong>).</p>
+
+<pre><code>$ cd ~/Dropbox/ge/george.entenman.name.jekyll2
+$ jekyll new george.entenman.name
+</code></pre>
+
+<p>This created the base system with a sample post (the original version of this page).</p>
+
+<p>Then I selectively copied my posts,  pages, assets, CNAME, etc. to the new directory.  It has worked very nicely and I like the simple look of the default theme.</p>
+
+<h2 id="dont-forget-the-cname-file">Don’t forget the CNAME file</h2>
+
+<p>I did scare myself a bit when (http://george.entenman.name)[http://george.entenman.name] suddenly stopped working.  After looking at the <strong>github</strong> docs, I realized that I hadn’t copied the <strong>CNAME</strong> file to the new directory.  Things work now.  </p>
+
+<h2 id="workflow">Workflow</h2>
+
+<h3 id="create-a-post">Create a post</h3>
+
+<p>For example, this post is located in a file named <strong>_posts/markdown/2014-05-16-move-to-jekyll20.markdown</strong>.</p>
+
+<p>This post has this header:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="o">---</span>
+<span class="ss">layout</span><span class="p">:</span> <span class="n">post</span>
+<span class="ss">title</span><span class="p">:</span>  <span class="s2">&quot;I&#39;ve moved my blog to Jekyll 2.0&quot;</span>
+<span class="ss">permalink</span><span class="p">:</span> <span class="sr">/markdown/</span><span class="n">jekyll</span><span class="o">/</span><span class="mi">2015</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span><span class="o">-</span><span class="n">move</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">jekyll20</span><span class="o">.</span><span class="n">html</span>
+<span class="ss">date</span><span class="p">:</span>   <span class="mi">2014</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span> <span class="mi">14</span><span class="p">:</span><span class="mi">12</span><span class="p">:</span><span class="mi">54</span>
+<span class="ss">categories</span><span class="p">:</span> <span class="n">markdown</span> <span class="n">jekyll</span>
+<span class="o">---</span></code></pre></div>
+
+<p>Test the post by generating the HTML from the markdown source and viewing it locally at http://localhost:4000.</p>
+
+<pre><code>$ jekyll serve
+</code></pre>
+
+<p>By the way, I keep the local copy of the website in a separate directory from the source by adding the following directive the the <strong>_config.yml</strong> file:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="ss">destination</span><span class="p">:</span> <span class="o">.</span><span class="n">.</span><span class="o">/</span><span class="n">ge</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span></code></pre></div>
+
+<p>Given the location of the jekyll source, this outputs the HTML pages into <strong>~/Dropbox/ge/george.entenman.name.jekyll2/ge.github.io</strong>.</p>
+
+<h3 id="how-to-upload-my-jekyll-blog-to-github">How to upload my jekyll blog to github</h3>
+
+<p>On github.com, I created a repository named ge.github.io.</p>
+
+<p>On my Mac:</p>
+
+<p>I told jekyll to output its pages into <strong>~/Dropbox/ge/george.entenman.name.jekyll2/ge.github.io</strong>.</p>
+
+<p>After creating my post file, I generate the HTML site:</p>
+
+<p>I then generated the pages:</p>
+
+<pre><code>$ cd ~/Dropbox/ge/george.entenman.name.jekyll2/george.entenman.name
+$ jekyll build
+</code></pre>
+
+<p>Then I put the pages onto github (use my github passphrase):</p>
+
+<pre><code>$ cd ../ge.github.io
+$ git init
+$ git add .
+$ git commit -m "jekyll 2.0 blog"
+$ git remote add origin git@github.com:ge/ge.github.io.git
+$ git push -u origin master
+</code></pre>
+
+<p>The site will now be visible at <strong>http://ge.github.io/</strong>.</p>
+
+<p>Because I also have a <strong>CNAME</strong> file containing the line <strong>george.entenman.name</strong>, and because I’ve set up a <strong>CNAME</strong> record at my domain name service, the site is also visible at <strong>http://george.entenman.name</strong>.</p>
+
+<p>It was amazingly hard and confusing to figure out how to do something so simple.  The clues are scattered all around, but I seem to have finally assembled them into a coherent story.  Whew!</p>
+
+<h2 id="enhancements">Enhancements</h2>
+
+<h3 id="excerpts">Excerpts</h3>
+
+<p>I want to add a short excerpt to the post list in index.html.  I don’t think that will be hard since the posts themselves already contain the necessary code.</p>
+
+<h3 id="use-jekyll-without-installing-it-on-my-computer">Use Jekyll without installing it on my computer</h3>
+
+<p>It looks possible to simply write my posts on my computer and then push them to <em>github</em> and let <em>github</em> turn them into <em>HTML</em> and serve them.  This appears to be <a href="http://stackoverflow.com/questions/21292780/github-pages-processing-jekyll-content-w-o-running-jekyll-locally">very simple</a>.  I wonder…  Currently there are no markdown files there, only html files.</p>
+
+<h2 id="original-jekyll-sample-post">Original Jekyll Sample Post</h2>
+
+<p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
 To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
 
 <p>Jekyll also offers powerful support for code snippets:</p>
