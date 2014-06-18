@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- BEGIN _layouts/default.html -->
 <html>
 
   <head>
@@ -11,6 +11,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
+
+    <!-- ge's Custom CSS -->
+    <link rel="stylesheet" href="/css/custom.css">
 
 </head>
 
@@ -53,7 +56,8 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="post">
+      <!-- BEGIN _layouts/post.html -->
+<div class="post">
 
   <header class="post-header">
     <h1>I've moved my blog to Jekyll 2.0</h1>
@@ -148,6 +152,10 @@ $ git push -u origin master
 
 <h2 id="enhancements">Enhancements</h2>
 
+<h3 id="fix-css">Fix CSS</h3>
+
+<p>I need to fix the stylesheets so that photos are smaller, centered, etc.  I’ve done that with the earlier version of this blog, so that shouldn’t be hard.</p>
+
 <h3 id="excerpts">Excerpts</h3>
 
 <p>I want to add a short excerpt to the post list in index.html.  I don’t think that will be hard since the posts themselves already contain the necessary code.</p>
@@ -175,6 +183,8 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
   </article>
 
 </div>
+<!-- END _layouts/post.html -->
+
       </div>
     </div>
 
@@ -243,3 +253,4 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
     </body>
 </html>
+<!-- END _layouts/default.html -->

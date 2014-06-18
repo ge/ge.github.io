@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- BEGIN _layouts/default.html -->
 <html>
 
   <head>
@@ -11,6 +11,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
+
+    <!-- ge's Custom CSS -->
+    <link rel="stylesheet" href="/css/custom.css">
 
 </head>
 
@@ -53,7 +56,8 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="post">
+      <!-- BEGIN _layouts/post.html -->
+<div class="post">
 
   <header class="post-header">
     <h1>jekyll confusion</h1>
@@ -161,6 +165,10 @@ $ git push -u origin master
 <p>It was amazingly hard and confusing to figure out how to do something so simple.  The clues are scattered all around, but I seem to have finally assembled them into a coherent story.  Whew!</p>
 
 <h2 id="enhancements">Enhancements</h2>
+
+<h3 id="fix-css">Fix CSS</h3>
+
+<p>I need to fix the stylesheets so that photos are smaller, centered, etc.  I’ve done that with the earlier version of this blog, so that shouldn’t be hard.</p>
 
 <h3 id="excerpts">Excerpts</h3>
 
@@ -660,6 +668,10 @@ $ git push -u origin master
 <p>It was amazingly hard and confusing to figure out how to do something so simple.  The clues are scattered all around, but I seem to have finally assembled them into a coherent story.  Whew!</p>
 
 <h2 id="enhancements-1">Enhancements</h2>
+
+<h3 id="fix-css-1">Fix CSS</h3>
+
+<p>I need to fix the stylesheets so that photos are smaller, centered, etc.  I’ve done that with the earlier version of this blog, so that shouldn’t be hard.</p>
 
 <h3 id="excerpts-1">Excerpts</h3>
 
@@ -2372,8 +2384,13 @@ Iris.  Some of the services will probably require extensive periods of time.</p>
 	
 	&lt;li&gt;
 		&lt;div&gt;
-		--- ![Sign at Clyde's house](/assets/2014Clydefest/17_2014_04_05_Clydefest_sign.jpg)
+		--- &lt;!-- EXCERPT HERE --&gt;
 </code></pre>
+
+<!--more-->
+
+<p><img src="/assets/2014_05_16_my_wife_the_saint.jpg" alt="Saint Iris of the Roses" />
+<img src="/assets/2014Clydefest/17_2014_04_05_Clydefest_sign.jpg" alt="Sign at Clyde's house" /></p>
 
 <!--more-->
 
@@ -4879,6 +4896,14 @@ Points to:
 
 <pre><code>		&lt;/div&gt;
 	&lt;/li&gt;
+
+	
+	
+	&lt;li&gt;
+		&lt;div&gt;
+		--- 
+		&lt;/div&gt;
+	&lt;/li&gt;
 </code></pre>
 
 <p>This prints out the <strong>contents</strong> of each post, as expected.</p>
@@ -5413,7 +5438,7 @@ Points to:
 			&lt;br /&gt;post[1].url: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
 			&lt;br /&gt;post[1].permalink: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
 			&lt;br /&gt;post[1].date: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
-			&lt;br /&gt;post[1].size: [ 9 ],
+			&lt;br /&gt;post[1].size: [ 10 ],
 			&lt;br /&gt;post[1].id: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
 			&lt;br /&gt;post[1].categories: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
 			&lt;br /&gt;post[1].tags: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
@@ -6002,6 +6027,38 @@ Points to:
 
 		&lt;/div&gt;
 	&lt;/li&gt;
+
+	
+	
+	&lt;li&gt;
+		&lt;div&gt;
+			
+
+
+	&lt;p&gt;
+		
+			object := post category + post content,
+			&lt;br /&gt;post category: [&lt;strong&gt;idproject&lt;/strong&gt;],
+			&lt;br /&gt;post[1] (content): [ [&lt;strong&gt;defined but not shown&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].content: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].title: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].excerpt: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].url: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].permalink: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].date: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].size: [ 2 ],
+			&lt;br /&gt;post[1].id: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].categories: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].tags: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].custom_variable: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].path: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+			&lt;br /&gt;post[1].layout: [ [&lt;strong&gt;undefined&lt;/strong&gt;] ],
+		
+	&lt;/p&gt;
+
+
+		&lt;/div&gt;
+	&lt;/li&gt;
 </code></pre>
 
 <p>The weirdest thing about this is that the <strong>post_examine.html</strong> include file <strong>seems to get the whole post object, not just **post[1]</strong>.  If <strong>_includes/post_examine.html</strong> looks like the following, then it will find an array with two elements, the post category and the post content.  It’s as if it’s looking at <strong>post[1][0]</strong> and <strong>post[1][1]</strong>.  I don’t understand this at all.  It does not have the normal post methods such as <strong>title</strong>, <strong>excerpt</strong>, <strong>url</strong> etc.</p>
@@ -6031,6 +6088,8 @@ Points to:
   </article>
 
 </div>
+<!-- END _layouts/post.html -->
+
       </div>
     </div>
 
@@ -6099,3 +6158,4 @@ Points to:
 
     </body>
 </html>
+<!-- END _layouts/default.html -->
