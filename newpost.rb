@@ -3,7 +3,8 @@
 # I think I'm trying to make a version of newpost that can be run from outside the jekyll directory.  The reason is that files in the jekyll directory are copied to the server.  The key to the new version is the variable SRCDIR
 
 DEBUG = false
-SRCDIR = %q{/Users/ge/Dropbox/ge/george.entenman.name.jekyll2/george.entenman.name}
+#SRCDIR = %q{/Users/ge/Dropbox/ge/george.entenman.name.jekyll2/george.entenman.name}
+SRCDIR = File.expand_path File.dirname(__FILE__)
 POSTSDIR = %Q{#{SRCDIR}/_posts}
 
 unless ARGV[1]
@@ -78,11 +79,17 @@ EOF
 if DEBUG
 	STDERR.puts debug_message
 else
-  File.open(postfullpathname,'w') do |f|
-  	f.puts %Q{#{initialfilecontents}}
+  begin
+    File.open(postfullpathname,'w') do |f|
+      f.puts %Q{#{initialfilecontents}}
+    end
+    STDERR.puts %Q{Have created #{postrelpathname}}
+  rescue Exception => e  
+    log.error "There was an error: #{e.message}"  
+    raise
   end
-  STDERR.puts %Q{Have created #{postrelpathname}}
 end
 
 
 __END__
+
