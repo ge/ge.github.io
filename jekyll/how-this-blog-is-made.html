@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Bunch of Photos</title>
-  <meta name="description" content="">
+  <title>How this blog is created and served</title>
+  <meta name="description" content="How I create george.entenman.name">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://george.entenman.name/misc/2014-10-20-a-bunch-of-photos.html">
+  <link rel="canonical" href="http://george.entenman.name/jekyll/how-this-blog-is-made.html">
   <link rel="alternate" type="application/rss+xml" title="george.entenman.name" href="http://george.entenman.name/feed.xml">
 </head>
 
@@ -73,16 +73,32 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">A Bunch of Photos</h1>
-    <p class="post-meta"><time datetime="2014-10-20T05:29:36-04:00" itemprop="datePublished">Oct 20, 2014</time></p>
+    <h1 class="post-title" itemprop="name headline">How this blog is created and served</h1>
+    <p class="post-meta"><time datetime="2015-03-27T20:00:00-04:00" itemprop="datePublished">Mar 27, 2015</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <!-- EXCERPT HERE -->
+    <h2 id="how-i-create-georgeentenmanname">How I create george.entenman.name</h2>
+
+<p>Unlike blogs on services such as <em>Wordpress</em>, <em>Tumblr</em>, etc., this blog is <strong>static</strong>, that is, it is created on one of my home computers (usually my Mac Mini) and then uploaded to a server.</p>
+
+<p>Since the blog is composed of static pages, there are many functions missing.  For example, there is no built-in way to make comments (if you see comments, it’s because I’ve added the ability to use <strong>disqus.com</strong>).</p>
+
+<p>On my computer, I use the <a href="http://jekyllrb.com">Jekyll</a> system to turn files written in <a href="http://daringfireball.net/projects/markdown/syntax">markdown</a> into HTML.</p>
+
+<p>The HTML files are then uploaded as <a href="https://pages.github.com/">Github Page</a>, which exposes it at the location <a href="http://ge.github.io">http://ge.github.io</a>.</p>
+
+<p>Since I’d rather have people use my name for the URL, I have arranged for Github to redirect <strong>http://ge.github.io</strong> to <a href="http://george.entenman.name">george.entenman.name</a>.</p>
 
 <!--more-->
 
-<h2 id="nothing-here-yet">Nothing here yet</h2>
+<h2 id="syncing-my-jekyll-blog-to-githubio">Syncing my Jekyll blog to github.io</h2>
+
+<p>In the past I’ve used pure <em>git</em> commands to copy my HTML files to Github.com.  For various reasons that I won’t go into here, I stopped being able to do this with <em>git</em> commands.</p>
+
+<p>After thrashing around for awhile, I downloaded <a href="https://mac.github.com/">GitHub.app</a>.  It offered to clone <strong>ge/ge.github.io</strong> to my local disk.  (This directory contains a copy of the HTML website built by Jekyll.) I removed the existing <strong>ge.githup.io</strong> directory from my Jekyll project and then cloned it.  This left me with a local copy of my online blog.</p>
+
+<p>I just ran Jekyll again to update the <strong>ge.github.io</strong>.  After doing that, <strong>GitHub.app</strong> offered to “Commit and Sync” everything.  So easy!  No <strong>git add</strong>, etc.  It worked: now my blog is up-to-date.</p>
 
 
   </div>
