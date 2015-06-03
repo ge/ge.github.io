@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- _layouts/default.html -->
 <html>
 
-  <head>
+  <!-- _includes/head.html -->
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,11 +15,13 @@
   <link rel="canonical" href="http://george.entenman.name/markdown/jekyll/2015-05-16-move-to-jekyll20.html">
   <link rel="alternate" type="application/rss+xml" title="george.entenman.name" href="http://george.entenman.name/feed.xml">
 </head>
+<!-- /_includes/head.html -->
 
 
   <body>
 
-    <header class="site-header">
+    <!-- _includes/header.html -->
+<header class="site-header">
 
   <div class="wrapper">
 
@@ -35,7 +39,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/about">About</a>
+          <a class="page-link" href="/about.html">About</a>
           
         
           
@@ -66,11 +70,13 @@
   </div>
 
 </header>
+<!-- /_includes/header.html -->
 
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <!-- _layouts/post.html -->
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">I've moved my blog to Jekyll 2.0</h1>
@@ -113,11 +119,11 @@ $ jekyll new george.entenman.name
 <p>This post has this header:</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
-<span class="ss">layout: </span><span class="n">post</span>
-<span class="ss">title:  </span><span class="s2">"I've moved my blog to Jekyll 2.0"</span>
-<span class="ss">permalink: </span><span class="sr">/markdown/</span><span class="n">jekyll</span><span class="o">/</span><span class="mi">2015</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span><span class="o">-</span><span class="n">move</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">jekyll20</span><span class="p">.</span><span class="nf">html</span>
-<span class="ss">date:   </span><span class="mi">2014</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span> <span class="mi">14</span><span class="p">:</span><span class="mi">12</span><span class="p">:</span><span class="mi">54</span>
-<span class="ss">categories: </span><span class="n">markdown</span> <span class="n">jekyll</span>
+<span class="ss">layout</span><span class="p">:</span> <span class="n">post</span>
+<span class="ss">title</span><span class="p">:</span>  <span class="s2">&quot;I&#39;ve moved my blog to Jekyll 2.0&quot;</span>
+<span class="ss">permalink</span><span class="p">:</span> <span class="sr">/markdown/</span><span class="n">jekyll</span><span class="o">/</span><span class="mi">2015</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span><span class="o">-</span><span class="n">move</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">jekyll20</span><span class="o">.</span><span class="n">html</span>
+<span class="ss">date</span><span class="p">:</span>   <span class="mi">2014</span><span class="o">-</span><span class="mo">05</span><span class="o">-</span><span class="mi">16</span> <span class="mi">14</span><span class="p">:</span><span class="mi">12</span><span class="p">:</span><span class="mi">54</span>
+<span class="ss">categories</span><span class="p">:</span> <span class="n">markdown</span> <span class="n">jekyll</span>
 <span class="o">---</span></code></pre></div>
 
 <p>Test the post by generating the HTML from the markdown source and viewing it locally at http://localhost:4000.</p>
@@ -127,7 +133,7 @@ $ jekyll new george.entenman.name
 
 <p>By the way, I keep the local copy of the website in a separate directory from the source by adding the following directive the the <strong>_config.yml</strong> file:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">destination: </span><span class="p">.</span><span class="nf">.</span><span class="sr">/ge.github.io</span></code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">destination</span><span class="p">:</span> <span class="o">.</span><span class="n">.</span><span class="o">/</span><span class="n">ge</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span></code></pre></div>
 
 <p>Given the location of the jekyll source, this outputs the HTML pages into <strong>~/Dropbox/ge/george.entenman.name.jekyll2/ge.github.io</strong>.</p>
 
@@ -185,22 +191,28 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 <p>Jekyll also offers powerful support for code snippets:</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
 <span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></div>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
+<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
 
 <p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</p>
 
 
   </div>
 
+  
+  <p>No Comments in post.html</p>
+  
+
 </article>
+<!-- /_layouts/post.html -->
 
       </div>
     </div>
 
-    <footer class="site-footer">
+    <!-- _includes/footer.html -->
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -259,8 +271,10 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
   </div>
 
 </footer>
+<!-- /_includes/footer.html -->
 
 
   </body>
 
 </html>
+<!-- /_layouts/default.html -->
