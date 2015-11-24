@@ -1,0 +1,9 @@
+# Trying out MeetHyde
+
+I decided to try [MeetHyde](https://github.com/MeetHyde/MeetHyde), a system that provides an GUI frontend for my *jekyll* blog on *github.io*.
+
+I'm running it from my own computer.  The advantage of using this is that I don't have to use *jekyll* from the command-line.  I don't mind using the command-line, but I always have to look up the *git* commands to update the website.  This way, it should be direct and "automatic".
+
+I thought I was supposed to see a preview of this page as I write in *markdown*, but I'm not.
+
+One disadvantage: my local copy of my blog will no longer be updated.  This could be a problem, but I'm not sure.
